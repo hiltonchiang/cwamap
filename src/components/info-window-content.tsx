@@ -25,7 +25,7 @@ export const InfoWindowContent = memo(({features}: InfowindowContentProps) => {
 
   return (
     <div>
-      <h4>{numFmt.format(features.length)} features. Zoom in to explore.</h4>
+      <h4>{numFmt.format(features.length)} stations. Zoom in to explore.</h4>
 
       <ul>
         {features.slice(0, 5).map(feature => {

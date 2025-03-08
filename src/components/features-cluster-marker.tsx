@@ -30,6 +30,7 @@ export const FeaturesClusterMarker = ({
     [onMarkerClick, marker, clusterId]
   );
   const markerSize = Math.floor(48 + Math.sqrt(size) * 2);
+  const title=sizeAsText.concat(' stations')
   return (
     <AdvancedMarker
       ref={markerRef}
@@ -38,7 +39,9 @@ export const FeaturesClusterMarker = ({
       onClick={handleClick}
       className={'marker cluster'}
       style={{width: markerSize, height: markerSize}}
-      anchorPoint={AdvancedMarkerAnchorPoint.CENTER}>
+      anchorPoint={AdvancedMarkerAnchorPoint.CENTER}
+      title={title}
+    >
       <WeatherSvg />
       <span>{sizeAsText}</span>
     </AdvancedMarker>
