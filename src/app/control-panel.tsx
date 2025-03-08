@@ -1,11 +1,11 @@
-import * as React from 'react';
+import * as React from 'react'
 
 type ControlPanelProps = {
-  numClusters: number;
-  numFeatures: number;
-};
+  numClusters: number
+  numFeatures: number
+}
 
-const numberFormat = new Intl.NumberFormat();
+const numberFormat = new Intl.NumberFormat()
 
 function ControlPanel(props: ControlPanelProps) {
   return (
@@ -16,18 +16,14 @@ function ControlPanel(props: ControlPanelProps) {
         <a href={'https://github.com/mapbox/supercluster'} target={'_blank'}>
           <code>supercluster</code>
         </a>{' '}
-        library together with <code>&lt;AdvancedMarker&gt;</code> components for
-        fast and fully customizable clustering of the features. It requires a
-        lot more code
+        library together with <code>&lt;AdvancedMarker&gt;</code> components for fast and fully
+        customizable clustering of the features. It requires a lot more code.
       </p>
-      <p>
-        The data shows all features from the OSM database for CWA station maps.
-      </p>
+      <p>The data shows all features from the OSM database for CWA station maps.</p>
 
       <ul>
         <li>
-          <strong>{numberFormat.format(props.numFeatures)}</strong> Features
-          loaded
+          <strong>{numberFormat.format(props.numFeatures)}</strong> Features loaded
         </li>
         <li>
           <strong>{props.numClusters}</strong> Markers rendered
@@ -48,7 +44,8 @@ function ControlPanel(props: ControlPanelProps) {
           <a
             href="https://thenounproject.com/browse/icons/term/castle/"
             target="_blank"
-            title="Castle Icons">
+            title="Castle Icons"
+          >
             Noun Project
           </a>{' '}
           (CC BY 3.0)
@@ -58,18 +55,18 @@ function ControlPanel(props: ControlPanelProps) {
       <div className="links">
         <a
           href="https://codesandbox.io/s/github/visgl/react-google-maps/tree/main/examples/custom-marker-clustering"
-          target="_new">
+          target="_new"
+        >
           Try on CodeSandbox ↗
         </a>
-
         <a
           href="https://github.com/visgl/react-google-maps/tree/main/examples/custom-marker-clustering"
-          target="_new">
+          target="_new"
+        >
           View Code ↗
         </a>
       </div>
     </div>
-  );
+  )
 }
-
-export default React.memo(ControlPanel);
+export default React.memo(ControlPanel)

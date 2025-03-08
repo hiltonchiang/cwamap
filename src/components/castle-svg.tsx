@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 /**
  * @copyright Castle by Rikas Dzihab from Noun Project (CC BY 3.0)
@@ -15,4 +15,4 @@ export const CastleSvg = () => (
       d="M50 52.133c-6.36 0-11.535 5.176-11.535 11.535v11.473a4.94 4.94 0 0 0 4.938 4.938h13.195a4.943 4.943 0 0 0 4.937-4.938V63.668c0-6.36-5.176-11.535-11.535-11.535zm5.91 22.316H44.09V63.668c0-3.258 2.652-5.91 5.91-5.91s5.91 2.648 5.91 5.91z"
     />
   </svg>
-);
+)
