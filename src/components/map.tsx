@@ -3,7 +3,7 @@ we need to make this component client rendered as well*/
 'use client'
 
 //Map component Component from library
-import { GoogleMap, MarkerF, MarkerClusterer } from "@react-google-maps/api";
+import { GoogleMap, Marker, InfoWindow, MarkerClusterer } from "@react-google-maps/api";
 import { STMaps } from "@/data/STMap"
 
 //Map's styling
@@ -42,11 +42,18 @@ const MapComponent = () => {
                  {(clusterer) => (
                     <>
                        {STMaps.map((location) => (
-                        <MarkerF
+                        <Marker
                           key={location.ID}
                           position={{lng:location.Lon, lat: location.Lat}}
                           clusterer={clusterer}
                           title={location.STname}
+                          onClick={() => {
+                              <InfoWindow 
+                                position={{lng:location.Lon, lat: location.Lat}}
+                              >
+                               <p>Hello</p>
+                              </InfoWindow>
+                          }}
                         />
                         ))}
                     </>

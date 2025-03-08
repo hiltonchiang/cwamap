@@ -22,6 +22,7 @@ export type CWAMAP = {
   eD_Hour: string
   Addr: string
   eAddr: string
+  display: boolean
 }
 
 export const STMaps:CWAMAP[] = 
@@ -49,7 +50,8 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市仁愛區港西街6號6樓(海港大樓)',
-	eAddr: '6F., No.6,  Gangxi St., Ren\'ai Dist., Keelung City 200, Taiwan (R.O.C.)'
+	eAddr: '6F., No.6,  Gangxi St., Ren\'ai Dist., Keelung City 200, Taiwan (R.O.C.)',
+    display: false
   },
   {
 	Icon: 0,
@@ -74,8 +76,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市淡水區中正東路42巷6號',
-	eAddr: 'No.6, Ln. 42, Zhongzheng E. Rd., Tamsui Dist., New Taipei City 251, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.6, Ln. 42, Zhongzheng E. Rd., Tamsui Dist., New Taipei City 251, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -99,8 +102,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市新店區莒光路29號',
-	eAddr: 'No.29, Juguang Rd., Xindian Dist., New Taipei City 231069, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.29, Juguang Rd., Xindian Dist., New Taipei City 231069, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -124,8 +128,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市北投區陽明山竹子湖路2號',
-	eAddr: 'No.2, Zhuzihu Rd., Beitou Dist., Taipei City 112, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2, Zhuzihu Rd., Beitou Dist., Taipei City 112, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -149,8 +154,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市北投區陽明山竹子湖路111號',
-	eAddr: 'No.111, Zhuzihu Rd., Beitou Dist., Taipei City 112, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.111, Zhuzihu Rd., Beitou Dist., Taipei City 112, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -174,8 +180,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣竹北市光明五街60號',
-	eAddr: 'No.60, Guangming 5th St., Zhubei City, Hsinchu County 302, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.60, Guangming 5th St., Zhubei City, Hsinchu County 302, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -199,8 +206,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市北區精武路295號',
-	eAddr: 'No.295, Jingwu Rd., North Dist., Taichung City 404, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.295, Jingwu Rd., North Dist., Taichung City 404, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -224,8 +232,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '澎湖縣馬公市新興路2號',
-	eAddr: 'No.2, Xinxing Rd., Magong City, Penghu County 880, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2, Xinxing Rd., Magong City, Penghu County 880, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -249,8 +258,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣魚池鄉水社村中山路270巷14號',
-	eAddr: 'No.14, Ln. 270, Zhongshan Rd., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.14, Ln. 270, Zhongshan Rd., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -274,8 +284,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣阿里山鄉中正村4鄰東阿里山73-1號',
-	eAddr: 'No.73-1, E. Alishan, Alishan Township, Chiayi County 605, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.73-1, E. Alishan, Alishan Township, Chiayi County 605, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -299,8 +310,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣信義鄉玉山北峰1號',
-	eAddr: 'No.1, Yushanbeifeng, Xinyi Township, Nantou County 556, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Yushanbeifeng, Xinyi Township, Nantou County 556, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -324,8 +336,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義市西區北新里海口寮路56號',
-	eAddr: 'No.56, Haikouliao Rd., West Dist., Chiayi City 600, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.56, Haikouliao Rd., West Dist., Chiayi City 600, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -349,8 +362,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市楠梓區德民路28號',
-	eAddr: 'No. 28, Demin Rd., Nanzi Dist., Kaohsiung City 811017, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28, Demin Rd., Nanzi Dist., Kaohsiung City 811017, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -374,8 +388,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣東勢鄉東榮路29巷1號(東勢鄉圖書館樓頂)',
-	eAddr: 'No. 3, Suoqian St., Dongnan Vil., Dongshi Township, Yunlin County 63545, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 3, Suoqian St., Dongnan Vil., Dongshi Township, Yunlin County 63545, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -399,8 +414,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣恆春鎮天文路50號',
-	eAddr: 'No.50, Tianwen Rd., Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.50, Tianwen Rd., Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -424,8 +440,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '宜蘭縣宜蘭市力行路150號',
-	eAddr: 'No.150, Lixing Rd., Yilan City, Yilan County 260, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.150, Lixing Rd., Yilan City, Yilan County 260, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -449,8 +466,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '花蓮縣花蓮市花崗街24號',
-	eAddr: 'No.24, Huagang St., Hualien City, Hualien County 970, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.24, Huagang St., Hualien City, Hualien County 970, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -474,8 +492,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣成功鎮公民路84號',
-	eAddr: 'No.84, Gongmin Rd., Chenggong Township, Taitung County 961, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.84, Gongmin Rd., Chenggong Township, Taitung County 961, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -499,8 +518,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣臺東市大同路106號',
-	eAddr: 'No.106, Datong Rd., Taitung City, Taitung County 950, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.106, Datong Rd., Taitung City, Taitung County 950, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -524,8 +544,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣大武鄉大武街115號',
-	eAddr: 'No.115, Dawu St., Dawu Township, Taitung County 965, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.115, Dawu St., Dawu Township, Taitung County 965, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -549,8 +570,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣蘭嶼鄉紅頭村2號',
-	eAddr: 'No.2, Hongtou, Lanyu Township, Taitung County 952, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2, Hongtou, Lanyu Township, Taitung County 952, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -574,8 +596,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市中正區彭佳嶼路2號',
-	eAddr: 'Pengjia Islet, Zhongzheng Dist., Keelung City 202, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Pengjia Islet, Zhongzheng Dist., Keelung City 202, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -599,8 +622,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '澎湖縣望安鄉東吉村156號',
-	eAddr: 'No.156, Dongji, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.156, Dongji, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -624,8 +648,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市永康區鹽行里正南五街520巷88號',
-	eAddr: 'No.88, Ln. 520, Zhengnan 5th St., Yongkang Dist., Tainan City 710, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.88, Ln. 520, Zhengnan 5th St., Yongkang Dist., Tainan City 710, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -649,8 +674,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '金門縣金湖鎮后壟31號(金門農試所)',
-	eAddr: 'No.31, Houlong, Jinhu Township, Kinmen County 891, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.31, Houlong, Jinhu Township, Kinmen County 891, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -674,8 +700,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市中正區公園路64號',
-	eAddr: 'No.64, Gongyuan Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.64, Gongyuan Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -699,8 +726,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣彰化市進德路1號(地理系)',
-	eAddr: 'No.1, Jinde Rd., Changhua City, Changhua County 500, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Jinde Rd., Changhua City, Changhua County 500, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -724,8 +752,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市中西區公園路21號',
-	eAddr: 'No.21, Gongyuan Rd., West Central Dist., Tainan City 700, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.21, Gongyuan Rd., West Central Dist., Tainan City 700, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -749,8 +778,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '花蓮縣秀林鄉與南投縣仁愛鄉交界台14甲線33K處(合歡山遊客中心)',
-	eAddr: '33KM of Provincial Highway 14A, on the borders of Ren\'ai Township, Nantou County and Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: '33KM of Provincial Highway 14A, on the borders of Ren\'ai Township, Nantou County and Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -774,8 +804,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '澎湖縣白沙鄉吉貝村182-2號(吉貝遊客中心)',
-	eAddr: 'No.2, Jibei, Baisha Township, Penghu County 884, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2, Jibei, Baisha Township, Penghu County 884, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -799,8 +830,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市旗津區東沙52號',
-	eAddr: 'No.52, Pratas Qijin Dist., Kaohsiung City 805, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.52, Pratas Qijin Dist., Kaohsiung City 805, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -824,8 +856,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '金門縣金城鎮金水里西海路一段250號',
-	eAddr: 'No.250, Sec. 1, Xihai Rd., Jincheng Township, Kinmen County 893, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.250, Sec. 1, Xihai Rd., Jincheng Township, Kinmen County 893, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -849,8 +882,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '連江縣南竿鄉四維村6鄰88號',
-	eAddr: 'No.88, Siwei Vil., Nangan Township, Lienchiang County 209, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.88, Siwei Vil., Nangan Township, Lienchiang County 209, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -874,8 +908,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市新莊區中和街193號(榮富國小)',
-	eAddr: 'No. 193, Zhonghe St., Xinzhuang Dist., New Taipei City 24248, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 193, Zhonghe St., Xinzhuang Dist., New Taipei City 24248, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -899,8 +934,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市石碇區湳窟34號附近',
-	eAddr: 'Near No. 34, Nanku, Shiding Dist., New Taipei City 223, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near No. 34, Nanku, Shiding Dist., New Taipei City 223, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -924,8 +960,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市文山區木柵路四段159巷14-1號(博嘉國小)',
-	eAddr: 'No. 14-1, Ln. 159, Sec. 4, Muzha Rd., Wenshan Dist., Taipei City 11656, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 14-1, Ln. 159, Sec. 4, Muzha Rd., Wenshan Dist., Taipei City 11656, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -949,8 +986,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市樹林區中山路三段5號(山佳國小)',
-	eAddr: 'No. 5, Sec. 3, Zhongshan Rd., Shulin Dist., New Taipei City 23852, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 5, Sec. 3, Zhongshan Rd., Shulin Dist., New Taipei City 23852, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -974,8 +1012,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市烏來區后桶街49號孝義里5K-6K',
-	eAddr: 'Near Zhongyi Vil. 5-6KM, Wulai Dist., New Taipei City, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Zhongyi Vil. 5-6KM, Wulai Dist., New Taipei City, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -999,8 +1038,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市桃園區成功路二段144號(桃園農工)',
-	eAddr: 'No. 144, Sec. 2, Chenggong Rd., Taoyuan Dist., Taoyuan City 33047, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 144, Sec. 2, Chenggong Rd., Taoyuan Dist., Taoyuan City 33047, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1024,8 +1064,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市八德區興仁里興豐路222號(八德國小)',
-	eAddr: 'No. 222, Xingfeng Rd., Xingren Vil., Bade Dist., Taoyuan City 33451, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 222, Xingfeng Rd., Xingren Vil., Bade Dist., Taoyuan City 33451, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1049,8 +1090,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣峨眉鄉峨眉村峨眉街54號(峨眉國中)',
-	eAddr: 'No. 54, Emei St., Emei Vil., Emei Township, Hsinchu County 31541, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 54, Emei St., Emei Vil., Emei Township, Hsinchu County 31541, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1074,8 +1116,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣頭屋鄉(明德水庫水利工作站)',
-	eAddr: 'Mingde Reservoir Irrigation Workstation, Touwu Township, Miaoli County 362, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Mingde Reservoir Irrigation Workstation, Touwu Township, Miaoli County 362, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1099,8 +1142,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣通霄鎮城北里1鄰13號(城中國小)',
-	eAddr: 'No. 13, 1st Neighborhood, Chengbei Vil., Tongxiao Township, Miaoli County 35747, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 13, 1st Neighborhood, Chengbei Vil., Tongxiao Township, Miaoli County 35747, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1124,8 +1168,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣新埔鎮新北里8鄰大北坑28號',
-	eAddr: 'Near No. 28, Dabeikeng, 8th Neighborhood, Xinbei Vil., Xinpu Township, Hsinchu County 30546, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near No. 28, Dabeikeng, 8th Neighborhood, Xinbei Vil., Xinpu Township, Hsinchu County 30546, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1149,8 +1194,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣竹南鎮大埔里仁愛路1092號(大埔國小)',
-	eAddr: 'No. 1092, Ren’ai Rd., Dapu Vil., Zhunan Township, Miaoli County 35058, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1092, Ren’ai Rd., Dapu Vil., Zhunan Township, Miaoli County 35058, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1174,8 +1220,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣南庄鄉東村文化路3號(南庄國小)',
-	eAddr: 'No. 3, Wenhua Rd., Dong Vil., Nanzhuang Township, Miaoli County 35341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 3, Wenhua Rd., Dong Vil., Nanzhuang Township, Miaoli County 35341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1199,8 +1246,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣尖石鄉梅花村1鄰11號(梅花國小)',
-	eAddr: 'No. 11, Meihua Vil., 1st Neighborhood, Jianshi Township, Hsinchu County 31341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 11, Meihua Vil., 1st Neighborhood, Jianshi Township, Hsinchu County 31341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1224,8 +1272,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣泰安鄉錦水村(離泰安方向、瞭望台旁)',
-	eAddr: 'Jinshui Vil., Tai’an Township, Miaoli County 365, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Jinshui Vil., Tai’an Township, Miaoli County 365, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1249,8 +1298,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市東勢區東關路6段1368號(林業及自然保育署臺中分署雙崎工作站)',
-	eAddr: 'No. 647, Dongguan Rd., Dongshi Dist., Taichung City 42350, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 647, Dongguan Rd., Dongshi Dist., Taichung City 42350, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1274,8 +1324,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉(大甲溪事業區81林班、合歡山三角點附近)',
-	eAddr: 'Near Hehuanshan, Ren’ai Township, Nantou County 546, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Hehuanshan, Ren’ai Township, Nantou County 546, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1299,8 +1350,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市善化區益民寮60號(亞洲蔬菜研究發展中心)',
-	eAddr: 'No. 60, Yiminliao, Shanhua Dist., Tainan City 74151, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 60, Yiminliao, Shanhua Dist., Tainan City 74151, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1324,8 +1376,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市田寮區古亭里',
-	eAddr: 'Guting Vil., Tianliao Dist., Kaohsiung City 823, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Guting Vil., Tianliao Dist., Kaohsiung City 823, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1349,8 +1402,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣三地門鄉沙溪林道19.2K高處(尾寮山瞭望台旁)',
-	eAddr: 'Near Shaxi Forest Rd. 19.2KM,, Sandimen Township, Pingtung County 901, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Shaxi Forest Rd. 19.2KM,, Sandimen Township, Pingtung County 901, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1374,8 +1428,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣內埔鄉水門村成功路83號(國立內埔農工)',
-	eAddr: 'No. 83, Chenggong Rd., Shuimen Vil., Neipu Township, Pingtung County 91291, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 83, Chenggong Rd., Shuimen Vil., Neipu Township, Pingtung County 91291, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1399,8 +1454,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣潮州鎮光春路290號(縣立光春國中)',
-	eAddr: 'No. 290, Guangchun Rd., Chaozhou Township, Pingtung County 92053, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 290, Guangchun Rd., Chaozhou Township, Pingtung County 92053, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1424,8 +1480,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣阿里山鄉達邦村21號(鄒族自然與文化中心)',
-	eAddr: 'No. 21, abangu Vil., Alishan Township, Chiayi County 605, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 21, abangu Vil., Alishan Township, Chiayi County 605, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1449,8 +1506,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣阿里山鄉茶山路62號之1(茶山村衛生室)',
-	eAddr: 'No. 62-1, Chashan Rd., Alishan Township, Chiayi County 60592, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 62-1, Chashan Rd., Alishan Township, Chiayi County 60592, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1474,8 +1532,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市北屯區軍福十三路268號(東山消防分隊)',
-	eAddr: 'No. 268, Junfu 13th Rd., Beitun Dist., Taichung City 40642, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 268, Junfu 13th Rd., Beitun Dist., Taichung City 40642, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1499,8 +1558,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣芬園鄉楓坑村大埔崙產業道路(往台灣民俗村方向)',
-	eAddr: 'Dapulun Industrial Road, Fengkeng Vil., Fenyuan Township, Changhua County 502, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dapulun Industrial Road, Fengkeng Vil., Fenyuan Township, Changhua County 502, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1524,8 +1584,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣草屯鎮中山里草鞋墩1街8號(草屯鎮公所)',
-	eAddr: 'No. 8, Caoxiedun 1st St., Zhongshan Vil., Caotun Township, Nantou County 54260, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 8, Caoxiedun 1st St., Zhongshan Vil., Caotun Township, Nantou County 54260, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1549,8 +1610,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣信義鄉神木村(對高岳營林區29林班444號、神木工作分站後山)',
-	eAddr: 'Shenmu Vil., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Shenmu Vil., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1574,8 +1636,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣溪湖鎮大竹里彰水路二段725號(湖南國小)',
-	eAddr: 'No. 725, Sec. 2, Zhangshui Rd., Dazhu Vil., Xihu Township, Changhua County 51447, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 725, Sec. 2, Zhangshui Rd., Dazhu Vil., Xihu Township, Changhua County 51447, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1599,8 +1662,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市大雅區(中部科學工業園區臺中園區)',
-	eAddr: 'Central Taiwan Science Park, Taichung Science Park'
-  },
+	eAddr: 'Central Taiwan Science Park, Taichung Science Park',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1624,8 +1688,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣竹山鎮延和里向學街32號(竹山國小)',
-	eAddr: 'No. 32, Xiangxue St., Yanhe Vil., Zhushan Township, Nantou County 55751, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 32, Xiangxue St., Yanhe Vil., Zhushan Township, Nantou County 55751, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1649,8 +1714,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣員林市萬年里明倫路2號(明倫國中)',
-	eAddr: 'No. 2, Minglun Rd., Wannian Vil., Yuanlin City, Changhua County 51051, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Minglun Rd., Wannian Vil., Yuanlin City, Changhua County 51051, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1674,8 +1740,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉(昆陽警察局「太魯閣國家公園」石碑後)',
-	eAddr: 'Behind Kunyang Police Office, Qini\'ai Vil., Ren’ai Township, Nantou County 547, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Behind Kunyang Police Office, Qini\'ai Vil., Ren’ai Township, Nantou County 547, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1699,8 +1766,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉精英村富貴路67號前方200公尺(廬山電力公司瞭望臺)',
-	eAddr: 'No. 67, Fugui Rd., Ren’ai Township, Nantou County 546023, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 67, Fugui Rd., Ren’ai Township, Nantou County 546023, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1724,8 +1792,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市白河區崎內里12號(鹿寮水庫)',
-	eAddr: 'No. 21, Qinei Vil., Baihe Dist., Tainan City 732, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 21, Qinei Vil., Baihe Dist., Tainan City 732, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1749,8 +1818,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市左營區左營大路1號(市立海青高工)',
-	eAddr: 'No. 1, Zuoying Avenue, Zuoying Dist., Kaohsiung City 81349, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Zuoying Avenue, Zuoying Dist., Kaohsiung City 81349, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1774,8 +1844,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣竹崎鄉(阿里山事業區148林班、中興苗圃)',
-	eAddr: 'No. 148 Forest Compartment, Alishan Forest Dist., Chiayi County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 148 Forest Compartment, Alishan Forest Dist., Chiayi County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1799,8 +1870,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣虎尾鎮林森路一段64號(中正國小)',
-	eAddr: 'No. 64, Sec. 1, Linsen Rd., Huwei Township, Yunlin County 63246, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 64, Sec. 1, Linsen Rd., Huwei Township, Yunlin County 63246, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1824,8 +1896,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣四湖鄉湖西村中正路766號(四湖國中)',
-	eAddr: 'No. 766, Zhongzheng Rd., Huxi Vil., Sihu Township, Yunlin County 65441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 766, Zhongzheng Rd., Huxi Vil., Sihu Township, Yunlin County 65441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -1849,8 +1922,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣口湖鄉湖口村170號(央廣口湖分台)',
-	eAddr: 'No. 170, Hukou Vil., Kouhu Township, Yunlin County 65343, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 170, Hukou Vil., Kouhu Township, Yunlin County 65343, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -1874,8 +1948,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市佳里區(延平派出所附近)',
-	eAddr: 'Jiali Dist., Tainan City 722, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Jiali Dist., Tainan City 722, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1899,8 +1974,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市瑞芳區(鼻頭角燈塔旁)',
-	eAddr: 'Near Bitoujiao Lighthouse, Ruifang Dist., New Taipei City 224, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Bitoujiao Lighthouse, Ruifang Dist., New Taipei City 224, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1924,8 +2000,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市萬里區溪底里香員林6-3號',
-	eAddr: 'No. 6-3, Xiangyuanlin, Xidi Vil., Wanli Dist., New Taipei City 20742, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 6-3, Xiangyuanlin, Xidi Vil., Wanli Dist., New Taipei City 20742, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1949,8 +2026,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市汐止區(國軍示範公墓旁、復興廣播電臺前)',
-	eAddr: 'Near Military Model Cemetery, Xizhi Dist., New Taipei City 221, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Military Model Cemetery, Xizhi Dist., New Taipei City 221, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1974,8 +2052,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市雙溪區雙溪里(社區活動中心旁花圃)',
-	eAddr: 'Activity Center, Shuangxi Vil., Shuangxi Dist., New Taipei City 227, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Activity Center, Shuangxi Vil., Shuangxi Dist., New Taipei City 227, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -1999,8 +2078,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市金山區(三和國小兩湖分校)',
-	eAddr: 'Sanhe Elementary School Lianghu Branch School, Jinshan Dist., New Taipei City 208, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Sanhe Elementary School Lianghu Branch School, Jinshan Dist., New Taipei City 208, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2024,8 +2104,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市金山區中興段404地號(磺港社區活動中心旁)',
-	eAddr: 'Land No. 404, Zhongxing Sec., Jinshan Dist., New Taipei City 208, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 404, Zhongxing Sec., Jinshan Dist., New Taipei City 208, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2049,8 +2130,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉(太平山白嶺苗圃)',
-	eAddr: 'Bailing, Taipingshan, Datong Township, Yilan County 267, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Bailing, Taipingshan, Datong Township, Yilan County 267, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2074,8 +2156,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣員山鄉雙連埤地區',
-	eAddr: 'Shuanglianpi, Yuanshan Township, Yilan County 264, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Shuanglianpi, Yuanshan Township, Yilan County 264, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2099,8 +2182,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市貢寮區(三貂角燈塔旁)',
-	eAddr: 'Near Sandiaojiao Lighthouse, Gongliao Dist., New Taipei City 228, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Sandiaojiao Lighthouse, Gongliao Dist., New Taipei City 228, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2124,8 +2208,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣礁溪鄉礁溪路四段23號(礁溪國中宿舍旁)',
-	eAddr: 'No. 23, Sec. 4, Jiaoxi Rd., Jiaoxi Township, Yilan County 26243, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 23, Sec. 4, Jiaoxi Rd., Jiaoxi Township, Yilan County 26243, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2149,8 +2234,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉松羅村鹿場路11號(松羅山頂瞭望亭旁)',
-	eAddr: 'No. 11, Luchang Rd., Songluo Vil., Datong Township, Yilan County 26741, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 11, Luchang Rd., Songluo Vil., Datong Township, Yilan County 26741, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2174,8 +2260,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉太平林道22.3K(太平山93林班)',
-	eAddr: 'No. 93 Forest Compartment, Taipingshan Forest Dist., Datong Township, Yilan County 267, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 93 Forest Compartment, Taipingshan Forest Dist., Datong Township, Yilan County 267, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2199,8 +2286,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣萬榮鄉西林路8鄰114號(西林國小)',
-	eAddr: 'No. 114, Xilin Vil., 8th Neighborhood, Wanrong Township, Hualien County 97942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 114, Xilin Vil., 8th Neighborhood, Wanrong Township, Hualien County 97942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2224,8 +2312,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉(立霧溪事業區80林班、祥德寺)',
-	eAddr: 'No. 80 Forest Compartment, Liwu River Forest Dist., Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 80 Forest Compartment, Liwu River Forest Dist., Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2249,8 +2338,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣壽豐鄉池南村池南路一段8號(鯉魚潭風景區旁)',
-	eAddr: 'No. 8, Sec. 1, Chinan Rd., Chinan Vil., Shoufeng Township, Hualien County 97445, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 8, Sec. 1, Chinan Rd., Chinan Vil., Shoufeng Township, Hualien County 97445, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2274,8 +2364,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣光復鄉大進村糖廠街19號(花蓮光復糖廠)',
-	eAddr: 'No. 19, Tangchang St., Dajin Vil., Guangfu Township, Hualien County 97642, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 19, Tangchang St., Dajin Vil., Guangfu Township, Hualien County 97642, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2299,8 +2390,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣東河鄉北東河16鄰35號(東河國小)',
-	eAddr: 'No. 35, Beidonghe, 16th Neighborhood, Donghe Township, Taitung County 95942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 35, Beidonghe, 16th Neighborhood, Donghe Township, Taitung County 95942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2324,8 +2416,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣長濱鄉竹湖村(移民橋後山三角點)',
-	eAddr: 'Behind Yimin Bridge, Zhuhu Vil., Changbin Township, Taitung County 962, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Behind Yimin Bridge, Zhuhu Vil., Changbin Township, Taitung County 962, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2349,8 +2442,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣海端鄉(原下馬派出所旁)',
-	eAddr: 'Near Xiama Police Station, Haiduan Township, Taitung County 957, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Xiama Police Station, Haiduan Township, Taitung County 957, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2374,8 +2468,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣富里鄉明里村(明里社區後山)',
-	eAddr: 'Behind Mingli Community, Mingli Vil., Fuli Township, Hualien County 983, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Behind Mingli Community, Mingli Vil., Fuli Township, Hualien County 983, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2399,8 +2494,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣太麻里鄉佳崙產業道路(往金針山茶區方向)',
-	eAddr: 'Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2424,8 +2520,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣卑南鄉溫泉村(溫泉國小樂山分校)',
-	eAddr: 'Wenquan Vil., Beinan Township, Taitung County 954, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Wenquan Vil., Beinan Township, Taitung County 954, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2449,8 +2546,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣鹿野鄉(鹿野高台高眺亭旁)',
-	eAddr: 'Luye Gaotai, Luye Township, Taitung County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Luye Gaotai, Luye Township, Taitung County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2474,8 +2572,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣豐濱鄉靜浦村(活動中心後山)',
-	eAddr: 'Behind Activity Center, Jingpu Vil., Fengbin Township, Hualien County 977, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Behind Activity Center, Jingpu Vil., Fengbin Township, Hualien County 977, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2499,8 +2598,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣綠島鄉',
-	eAddr: 'Ludao Township, Taitung County 951, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Ludao Township, Taitung County 951, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2524,8 +2624,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣池上鄉新興村104號(退輔會臺東農場)',
-	eAddr: 'No. 104, Xinxing Vil., Chishang Township, Taitung County 95842, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 104, Xinxing Vil., Chishang Township, Taitung County 95842, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2549,8 +2650,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣海端鄉向陽工務段',
-	eAddr: 'Xiangyang, Haiduan Township, Taitung County 957, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Xiangyang, Haiduan Township, Taitung County 957, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2574,8 +2676,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣卓溪鄉(南安遊客中心附近、日據時代派出所舊址)',
-	eAddr: 'Jiaxin, Zhuoxi Township, Hualien County 982, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Jiaxin, Zhuoxi Township, Hualien County 982, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2599,8 +2702,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣玉里鎮樂合里新民41號(樂合國小)',
-	eAddr: 'No. 41, Xinmin, Lehe Vil., Yuli Township, Hualien County 98148, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 41, Xinmin, Lehe Vil., Yuli Township, Hualien County 98148, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2624,8 +2728,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣太麻里鄉多良村(原中華電信轉播站旁)',
-	eAddr: 'Duoliang Vil., Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Duoliang Vil., Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2649,8 +2754,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣瑞穗鄉舞鶴村(加納納山三角點)',
-	eAddr: 'Near Kalalashan, Wuhe Vil., Ruisui Township, Hualien County 978, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Kalalashan, Wuhe Vil., Ruisui Township, Hualien County 978, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -2674,8 +2780,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣滿州鄉長樂村大公路14號(往南仁山方向)',
-	eAddr: 'No. 14, Dagong Rd., Changle Vil., Manzhou Township, Pingtung County 94743, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 14, Dagong Rd., Changle Vil., Manzhou Township, Pingtung County 94743, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -2699,8 +2806,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣恆春鎮(貓鼻頭風景區)',
-	eAddr: 'Maobitou Scenic Area, Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Maobitou Scenic Area, Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -2724,8 +2832,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣琉球鄉天台段596、597地號',
-	eAddr: 'Land No. 596 and No. 597, Tiantai Sec., Sanmin Rd., Liuqiu Township, Pingtung County 929, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 596 and No. 597, Tiantai Sec., Sanmin Rd., Liuqiu Township, Pingtung County 929, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2749,8 +2858,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市士林區延平北路九段212號(臺北海洋科技大學內)',
-	eAddr: 'No. 212, Sec. 9, Yanping N. Rd., Shilin Dist., Taipei City 11174, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 212, Sec. 9, Yanping N. Rd., Shilin Dist., Taipei City 11174, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2774,8 +2884,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市士林區天母東路116號(三玉國小)',
-	eAddr: 'No. 116, Tianmu E. Rd., Shilin Dist., Taipei City 11153, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 116, Tianmu E. Rd., Shilin Dist., Taipei City 11153, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2799,8 +2910,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市內湖區內湖路一段520號(內湖高工)',
-	eAddr: 'No. 520, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 11493, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 520, Sec. 1, Neihu Rd., Neihu Dist., Taipei City 11493, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2824,8 +2936,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市信義區市府路1號(臺北市政府)',
-	eAddr: 'No. 1, Shifu Rd., Xinyi Dist., Taipei City 11008, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Shifu Rd., Xinyi Dist., Taipei City 11008, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2849,8 +2962,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市坪林區',
-	eAddr: 'Pinglin Dist., New Taipei City 232, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Pinglin Dist., New Taipei City 232, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2874,8 +2988,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市雙溪區泰平里8鄰大平路43號(泰平國小分校附近)',
-	eAddr: 'No. 43, Daping Rd., 8th Neighborhood, Taiping Vil., Shuangxi Dist., New Taipei City 22743, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 43, Daping Rd., 8th Neighborhood, Taiping Vil., Shuangxi Dist., New Taipei City 22743, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -2899,8 +3014,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市三峽區復興路238號(三峽國中)',
-	eAddr: 'No. 238, Fuxing Rd., Sanxia Dist., New Taipei City 23741, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 238, Fuxing Rd., Sanxia Dist., New Taipei City 23741, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2924,8 +3040,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉(立霧溪事業區67林班)',
-	eAddr: 'No. 67 Forest Compartment, Liwu River Forest Dist., Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 67 Forest Compartment, Liwu River Forest Dist., Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2949,8 +3066,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣壽豐鄉(月眉山附近)',
-	eAddr: 'Near Yuemeishan, Shoufeng Township, Hualien County 974, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Yuemeishan, Shoufeng Township, Hualien County 974, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -2974,8 +3092,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉原水源段(苗圃)',
-	eAddr: 'Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -2999,8 +3118,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣信義鄉自強村綠美巷(內茅埔營林區23林班)',
-	eAddr: 'Lumei Ln., Ziqiang Vil., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Lumei Ln., Ziqiang Vil., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3024,8 +3144,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮(龜山島山頂401高地觀景台)',
-	eAddr: 'Gueishan Island, Yilan County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Gueishan Island, Yilan County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3049,8 +3170,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣達仁鄉南田村(南田風景區公園對面)',
-	eAddr: 'Nantian Vil., Daren Township, Taitung County 966, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nantian Vil., Daren Township, Taitung County 966, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3074,8 +3196,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣太麻里鄉金崙段304-1地號',
-	eAddr: 'Land No. 304-1, Jinlun Sec., Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 304-1, Jinlun Sec., Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3099,8 +3222,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣鳳林鎮',
-	eAddr: 'Fenglin Township, Hualien County 975, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fenglin Township, Hualien County 975, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3124,8 +3248,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣壽豐鄉10鄰山嶺80-1號(中華電信賀田山機房旁)',
-	eAddr: 'No. 80-1, Shanling, 10th Neighborhood, Shoufeng Township, Hualien County 97449, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 80-1, Shanling, 10th Neighborhood, Shoufeng Township, Hualien County 97449, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3149,8 +3274,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣豐濱鄉臨海段776-4地號(加路蘭山營區)',
-	eAddr: 'Land No. 776-4, Linhai Sec., Fengbin Township, Hualien County 977, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 776-4, Linhai Sec., Fengbin Township, Hualien County 977, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3174,8 +3300,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣豐濱鄉豐濱村',
-	eAddr: 'Fengbin Vil., Fengbin Township, Hualien County 977, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fengbin Vil., Fengbin Township, Hualien County 977, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3199,8 +3326,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣壽豐鄉水璉村',
-	eAddr: 'Shuilian Vil., Shoufeng Township, Hualien County 974, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Shuilian Vil., Shoufeng Township, Hualien County 974, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3224,8 +3352,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉(和平國小和中分校)',
-	eAddr: 'HePing Primary School Hezhong Branch School , Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'HePing Primary School Hezhong Branch School , Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3249,8 +3378,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣南澳鄉東岳村蘇花路三段209號(東澳國小)',
-	eAddr: 'No. 209, Sec. 3, Suhua Rd., Dongyue Vil., Nan’ao Township, Yilan County 27291, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 209, Sec. 3, Suhua Rd., Dongyue Vil., Nan’ao Township, Yilan County 27291, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3274,8 +3404,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣南澳鄉(南澳地震站)',
-	eAddr: 'Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3299,8 +3430,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市北投區湖田段461-6地號(民航局大屯山助航臺)',
-	eAddr: 'Land No. 461-6, Hutian Section, Beitou Dist., Taipei City 112, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 461-6, Hutian Section, Beitou Dist., Taipei City 112, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -3324,8 +3456,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市神岡區三民路639號(圳堵國小)',
-	eAddr: 'No. 639, Sanmin Rd., Shengang Dist., Taichung City 42954, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 639, Sanmin Rd., Shengang Dist., Taichung City 42954, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3349,8 +3482,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣新豐鄉松柏村康和路199號(小叮噹科學主題樂園)',
-	eAddr: 'No. 199, Kanghe Rd., Song bo Vil., Xinfeng Township, Hsinchu County 304113, Taiwan'
-  },
+	eAddr: 'No. 199, Kanghe Rd., Song bo Vil., Xinfeng Township, Hsinchu County 304113, Taiwan',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3374,8 +3508,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市觀音區廣福里10-42號(逸福農場)',
-	eAddr: 'No. 10-42, Guangfu Vil., Guanyin Dist., Taoyuan City, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 10-42, Guangfu Vil., Guanyin Dist., Taoyuan City, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3399,8 +3534,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市復興區澤仁里中正路248號(介壽國中)',
-	eAddr: 'No. 248, Zhongzheng Rd., Zeren Vil., Fuxing Dist., Taoyuan City 33641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 248, Zhongzheng Rd., Zeren Vil., Fuxing Dist., Taoyuan City 33641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3424,8 +3560,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣橫山鄉橫山村橫山段426-6地號',
-	eAddr: 'Land No. 426-6, Hengshan Sec., Hengshan Vil., Hengshan Township, Hsinchu County 312, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 426-6, Hengshan Sec., Hengshan Vil., Hengshan Township, Hsinchu County 312, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3449,8 +3586,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣五峰鄉桃山村民石380號(雪霸農場)',
-	eAddr: 'No. 380, Minshi, Taoshan Vil., Wufeng Township, Hsinchu County 31141, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 380, Minshi, Taoshan Vil., Wufeng Township, Hsinchu County 31141, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3474,8 +3612,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣竹東鎮光明路32號(二重國小)',
-	eAddr: 'Erchong Elementary School, Zhudong Township, Hsinchu County 310, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Erchong Elementary School, Zhudong Township, Hsinchu County 310, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3499,8 +3638,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市蘆竹區坑口里14鄰',
-	eAddr: 'Near 14th Neighborhood, Kengkou Vil., Luzhu Dist., Taoyuan City, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near 14th Neighborhood, Kengkou Vil., Luzhu Dist., Taoyuan City, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3524,8 +3664,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市平鎮區中豐路山頂段375巷45號(山豐國小)',
-	eAddr: 'No. 45, Ln. 375, Sec. Shanding, Zhongfeng Rd., Pingzhen Dist., Taoyuan City 32462, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 45, Ln. 375, Sec. Shanding, Zhongfeng Rd., Pingzhen Dist., Taoyuan City 32462, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3549,8 +3690,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市大溪區員林路二段450號(員樹林國小)',
-	eAddr: 'No. 450, Sec. 2, Yuanlin Rd., Daxi Dist., Taoyuan City 33549, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 450, Sec. 2, Yuanlin Rd., Daxi Dist., Taoyuan City 33549, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3574,8 +3716,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣寶山鄉新湖路280號',
-	eAddr: 'No. 280, Xinhu Rd., Baoshan Township, Hsinchu County 30845, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 280, Xinhu Rd., Baoshan Township, Hsinchu County 30845, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3599,8 +3742,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣頭份市中正路219號(頭份國小)',
-	eAddr: 'No. 219, Zhongzheng Rd., Toufen City, Miaoli County 35151, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 219, Zhongzheng Rd., Toufen City, Miaoli County 35151, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3624,8 +3768,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市八里區中山路二段338號(八里國小)',
-	eAddr: 'No. 338, Sec. 2, Zhongshan Rd., Bali Dist., New Taipei City 24943, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 338, Sec. 2, Zhongshan Rd., Bali Dist., New Taipei City 24943, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3649,8 +3794,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市蘆洲區三民路96號(三民高中)',
-	eAddr: 'No. 96, Sanmin Rd., Luzhou Dist., New Taipei City 24760, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 96, Sanmin Rd., Luzhou Dist., New Taipei City 24760, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3674,8 +3820,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市土城區金城路一段90號(土城消防分隊)',
-	eAddr: 'No. 90, Sec. 1, Jincheng Rd., Tucheng Dist., New Taipei City 23671, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 90, Sec. 1, Jincheng Rd., Tucheng Dist., New Taipei City 23671, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3699,8 +3846,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市鶯歌區尖山埔路106號(鶯歌國小)',
-	eAddr: 'No. 106, Jianshanpu Rd., Yingge Dist., New Taipei City 23942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 106, Jianshanpu Rd., Yingge Dist., New Taipei City 23942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -3724,8 +3872,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市新興區大同一路231號(大同國小)',
-	eAddr: 'No. 231, Datong 1st Rd., Xinxing Dist., Kaohsiung City 80049, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 231, Datong 1st Rd., Xinxing Dist., Kaohsiung City 80049, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3749,8 +3898,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣五結鄉國民路1號(五結國小)',
-	eAddr: 'No. 88, Sec. 2, Wujie Central Rd., Wujie Township, Yilan County 26842, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 88, Sec. 2, Wujie Central Rd., Wujie Township, Yilan County 26842, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -3774,8 +3924,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣海端鄉紅石林道13K(紅石瞭望台旁)',
-	eAddr: 'Hongshi Forest Rd. 13KM, Haiduan Township, Taitung County 957, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Hongshi Forest Rd. 13KM, Haiduan Township, Taitung County 957, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3799,8 +3950,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣獅潭鄉(公所圖書館)',
-	eAddr: 'Shitan Township Office Library, Shitan Township, Miaoli County 354, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Shitan Township Office Library, Shitan Township, Miaoli County 354, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3824,8 +3976,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市汐止區大同路二段394號(汐止國中)',
-	eAddr: 'No. 394, Sec. 2, Datong Rd., Xizhi Dist., New Taipei City 22184, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 394, Sec. 2, Datong Rd., Xizhi Dist., New Taipei City 22184, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3849,8 +4002,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣造橋鄉造橋村14鄰3號(造橋國小)',
-	eAddr: 'No. 3, 14th Neighborhood, Zaoqiao Vil., Zaoqiao Township, Miaoli County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 3, 14th Neighborhood, Zaoqiao Vil., Zaoqiao Township, Miaoli County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3874,8 +4028,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣苗栗市中正路241號(建功國小)',
-	eAddr: 'No. 241, Zhongzheng Rd., Miaoli City, Miaoli County 36042, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 241, Zhongzheng Rd., Miaoli City, Miaoli County 36042, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3899,8 +4054,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣銅鑼鄉福興村文化街1號(銅鑼國小)',
-	eAddr: 'No. 1, Wenhua St., Fuxing Vil., Tongluo Township, Miaoli County 36641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Wenhua St., Fuxing Vil., Tongluo Township, Miaoli County 36641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3924,8 +4080,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣卓蘭鎮中山路127號(卓蘭鎮公所)',
-	eAddr: 'No. 127, Zhongshan Rd., Zhuolan Township, Miaoli County 36941, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 127, Zhongshan Rd., Zhuolan Township, Miaoli County 36941, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -3949,8 +4106,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣西湖鄉二湖村2鄰22號(僑文國小)',
-	eAddr: 'No. 22, 2nd Neighborhood, Erhu Vil., Xihu Township, Miaoli County 368, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 22, 2nd Neighborhood, Erhu Vil., Xihu Township, Miaoli County 368, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -3974,8 +4132,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣福興鄉員鹿路二段270號(福興國中)',
-	eAddr: 'No. 270, Sec. 2, Yuanlu Rd., Fuxing Township, Changhua County 50649, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 270, Sec. 2, Yuanlu Rd., Fuxing Township, Changhua County 50649, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -3999,8 +4158,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣秀水鄉安東村中山路257號(秀水國小)',
-	eAddr: 'No. 257, Zhongshan Rd., Andong Vil., Xiushui Township, Changhua County 50448, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 257, Zhongshan Rd., Andong Vil., Xiushui Township, Changhua County 50448, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4024,8 +4184,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣埔鹽鄉永樂村永樂路600號(永樂國小)',
-	eAddr: 'No. 600, Yongle Rd., Yongle Vil., Puyan Township, Changhua County 51645, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 600, Yongle Rd., Yongle Vil., Puyan Township, Changhua County 51645, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4049,8 +4210,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣埔心鄉舊館村員鹿路四段201號(舊館國小)',
-	eAddr: 'No. 201, Sec. 4, Yuanlu Rd., Jiuguan Vil., Puxin Township, Changhua County 51342, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 201, Sec. 4, Yuanlu Rd., Jiuguan Vil., Puxin Township, Changhua County 51342, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4074,8 +4236,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣田尾鄉中正路二段101號(仁豐國小)',
-	eAddr: 'No. 101, Sec. 2, Zhongzheng Rd., Tianwei Township, Changhua County 52241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 101, Sec. 2, Zhongzheng Rd., Tianwei Township, Changhua County 52241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4099,8 +4262,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣埤頭鄉大湖村大湖路260號(大湖國小)',
-	eAddr: 'No. 260, Dahu Rd., Dahu Vil., Pitou Township, Changhua County 52342, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 260, Dahu Rd., Dahu Vil., Pitou Township, Changhua County 52342, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4124,8 +4288,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣社頭鄉社斗路一段258號(社頭國小)',
-	eAddr: 'No. 258, Sec. 1, Shedou Rd., Shetou Township, Changhua County 51143, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 258, Sec. 1, Shedou Rd., Shetou Township, Changhua County 51143, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4149,8 +4314,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣二水鄉文化村119號(二水國小)',
-	eAddr: 'No. 119, Wenhua Vil., Ershui Township, Changhua County 530, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 119, Wenhua Vil., Ershui Township, Changhua County 530, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4174,8 +4340,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣伸港鄉新港村和平路60號(新港國小)',
-	eAddr: 'No. 60, Heping Rd., Xingang Vil., Shengang Township, Changhua County 50941, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 60, Heping Rd., Xingang Vil., Shengang Township, Changhua County 50941, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4199,8 +4366,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市大安區中庄里中山南路296號(大安國小)',
-	eAddr: 'No. 296, Zhongshan S. Rd., Zhongzhuang Vil., Da’an Dist., Taichung City 43951, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 296, Zhongshan S. Rd., Zhongzhuang Vil., Da’an Dist., Taichung City 43951, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4224,8 +4392,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市后里區甲后路110號(后里國小)',
-	eAddr: 'No. 110, Jiahou Rd., Houli Dist., Taichung City 42141, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 110, Jiahou Rd., Houli Dist., Taichung City 42141, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4249,8 +4418,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市豐原區豐榮里12鄰新生北路155號(豐原國小)',
-	eAddr: 'No. 155, Xinsheng N. Rd., 12nd Neighborhood, Fengrong Vil., Fengyuan Dist., Taichung City 42060, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 155, Xinsheng N. Rd., 12nd Neighborhood, Fengrong Vil., Fengyuan Dist., Taichung City 42060, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4274,8 +4444,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市大里區文化街120號(塗城國小)',
-	eAddr: 'No. 120, Wenhua St., Dali Dist., Taichung City 41284, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 120, Wenhua St., Dali Dist., Taichung City 41284, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4299,8 +4470,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市潭子區中山路二段435號(潭子國小)',
-	eAddr: 'No. 435, Sec. 2, Zhongshan Rd., Tanzi Dist., Taichung City 42758, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 435, Sec. 2, Zhongshan Rd., Tanzi Dist., Taichung City 42758, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4324,8 +4496,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市清水區護岸路37號(高美國小)',
-	eAddr: 'No. 37, Hu’an Rd., Qingshui Dist., Taichung City 43645, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 37, Hu’an Rd., Qingshui Dist., Taichung City 43645, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4349,8 +4522,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市外埔區土城里土城西路55號(安定國小)',
-	eAddr: 'No. 55, Tucheng W. Rd., Tucheng Vil., Waipu Dist., Taichung City 43866, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 55, Tucheng W. Rd., Tucheng Vil., Waipu Dist., Taichung City 43866, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4374,8 +4548,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市龍井區龍西里龍門路51號(龍井國小)',
-	eAddr: 'No. 51, Longmen Rd., Longxi Vil., Longjing Dist., Taichung City, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 51, Longmen Rd., Longxi Vil., Longjing Dist., Taichung City, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4399,8 +4574,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市烏日區中山路二段196號(烏日國小)',
-	eAddr: 'No. 196, Sec. 2, Zhongshan Rd., Wuri Dist., Taichung City 41441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 196, Sec. 2, Zhongshan Rd., Wuri Dist., Taichung City 41441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4424,8 +4600,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市西屯區西屯路二段300號(西屯國小)',
-	eAddr: 'No. 300, Sec. 2, Xitun Rd., Xitun Dist., Taichung City 40749, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 300, Sec. 2, Xitun Rd., Xitun Dist., Taichung City 40749, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4449,8 +4626,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市南屯區黎明路一段968號(南屯國小)',
-	eAddr: 'No. 968, Sec. 1, Liming Rd., Nantun Dist., Taichung City 40841, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 968, Sec. 1, Liming Rd., Nantun Dist., Taichung City 40841, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4474,8 +4652,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市新社區大南里興中街46號(種苗改良繁殖場)',
-	eAddr: 'No. 46, Xingzhong St., Danan Vil., Xinshe Dist., Taichung City 42642, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 46, Xingzhong St., Danan Vil., Xinshe Dist., Taichung City 42642, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4499,8 +4678,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市石岡區石岡街6號(衛生所)',
-	eAddr: 'No. 6, Shigang St., Shigang Dist., Taichung City 42261, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 6, Shigang St., Shigang Dist., Taichung City 42261, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -4524,8 +4704,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣湖口鄉信勢村3鄰成功路109號(湖口消防分隊)',
-	eAddr: 'No. 109, Chenggong Rd., 3rd Neighborhood, Xinshi Vil., Hukou Township, Hsinchu County 30344, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 109, Chenggong Rd., 3rd Neighborhood, Xinshi Vil., Hukou Township, Hsinchu County 30344, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -4549,8 +4730,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市龍潭區中興路726號(龍潭消防分隊)',
-	eAddr: 'No. 726, Zhongxing Rd., Longtan Dist., Taoyuan City 32555, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 726, Zhongxing Rd., Longtan Dist., Taoyuan City 32555, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4574,8 +4756,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市茂林區萬山段710地號',
-	eAddr: 'Land No. 710, Wanshan Sec., Maolin Dist., Kaohsiung City 851, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 710, Wanshan Sec., Maolin Dist., Kaohsiung City 851, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -4599,8 +4782,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣苑裡鎮信義路1號(苑裡鎮公所)',
-	eAddr: 'No. 1, Xinyi Rd., Yuanli Township, Miaoli County 35860, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Xinyi Rd., Yuanli Township, Miaoli County 35860, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4624,8 +4808,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市和平區(雪山9.8K-9.9K)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -4649,8 +4834,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣光復鄉大豐村9鄰265號(富源國中對面山腰)',
-	eAddr: 'No. 265, 9th Neighborhood, Dafeng Vil., Guangfu Township, Hualien County 97644, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 265, 9th Neighborhood, Dafeng Vil., Guangfu Township, Hualien County 97644, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4674,8 +4860,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣阿里山鄉里佳村',
-	eAddr: 'Lijia Vil., Alishan Township, Chiayi County 605, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Lijia Vil., Alishan Township, Chiayi County 605, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -4699,8 +4886,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣三灣鄉大河村48號(大河派出所)',
-	eAddr: 'No. 48, Dahe Vil., Sanwan Township, Miaoli County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 48, Dahe Vil., Sanwan Township, Miaoli County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4724,8 +4912,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉曲冰段萬大林道7.2K附近',
-	eAddr: 'Qubing Sec., Ren’ai Township, Nantou County 546, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Qubing Sec., Ren’ai Township, Nantou County 546, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4749,8 +4938,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉大同村仁和路215號(梅峰農場)',
-	eAddr: 'No. 215, Renhe Rd., Datong Vil., Ren’ai Township, Nantou County 54641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 215, Renhe Rd., Datong Vil., Ren’ai Township, Nantou County 54641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4774,8 +4964,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣恆春鎮燈塔路51巷33號(墾丁雷達站區)',
-	eAddr: 'No. 33, Ln. 51, Dengta Rd., Hengchun Township, Pingtung County 94644, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 33, Ln. 51, Dengta Rd., Hengchun Township, Pingtung County 94644, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -4799,8 +4990,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣關山鎮(親水公園)',
-	eAddr: 'Guanshan Water Park, Guanshan Township, Taitung County 956, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Guanshan Water Park, Guanshan Township, Taitung County 956, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4824,8 +5016,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市歸仁區中正北路三段60號(保西國小)',
-	eAddr: 'No. 60, Sec. 3, Zhongzheng N. Rd., Guiren Dist., Tainan City 71141, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 60, Sec. 3, Zhongzheng N. Rd., Guiren Dist., Tainan City 71141, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4849,8 +5042,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市南化區北寮里48-4號',
-	eAddr: 'No. 48-4, Beiliau Vil., Nanhua Dist., Tainan City 71651, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 48-4, Beiliau Vil., Nanhua Dist., Tainan City 71651, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4874,8 +5068,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市路竹區國昌路76號(路竹區公所)',
-	eAddr: 'No. 76, Guochang Rd., Luzhu Dist., Kaohsiung City 82150, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 76, Guochang Rd., Luzhu Dist., Kaohsiung City 82150, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4899,8 +5094,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣萬巒鄉建興路40號(赤山國小)',
-	eAddr: 'No. 40, Jianxing Rd., Wanluan Township, Pingtung County 92343, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 40, Jianxing Rd., Wanluan Township, Pingtung County 92343, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -4924,8 +5120,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市永和區永平路205號(永平高中)',
-	eAddr: 'No. 205, Yongping Rd., Yonghe Dist., New Taipei City 23443, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 205, Yongping Rd., Yonghe Dist., New Taipei City 23443, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -4949,8 +5146,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣崙背鄉阿勸村阿勸段487號(阿勸農場)',
-	eAddr: 'Aquan Farm, Aquan Vil., Lunbei Township, Yunlin County 637, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Aquan Farm, Aquan Vil., Lunbei Township, Yunlin County 637, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4974,8 +5172,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市內門區木柵里木柵3號(木柵國小)',
-	eAddr: 'No. 3, Muzha, Muzha Vil., Neimen Dist., Kaohsiung City 84552, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 3, Muzha, Muzha Vil., Neimen Dist., Kaohsiung City 84552, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -4999,8 +5198,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣泰武鄉泰武村良武巷101號(舊泰武村老人活動中心)',
-	eAddr: 'No. 101, Liangwu Ln., Taiwu Vil., Taiwu Township, Pingtung County 92142, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 101, Liangwu Ln., Taiwu Vil., Taiwu Township, Pingtung County 92142, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5024,8 +5224,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣里港鄉永春村中山路104號(里港鄉公所)',
-	eAddr: 'No. 104, Zhongshan Rd., Yongchun Vil., Ligang Township, Pingtung County 90546, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 104, Zhongshan Rd., Yongchun Vil., Ligang Township, Pingtung County 90546, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5049,8 +5250,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市六龜區民治路9號(六龜消防隊)',
-	eAddr: 'No. 9, Minzhi Rd., Liugui Dist., Kaohsiung City 84441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 9, Minzhi Rd., Liugui Dist., Kaohsiung City 84441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5074,8 +5276,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市燕巢區西燕里工程路1號(阿公店水庫)',
-	eAddr: 'No. 1, Gongcheng Rd., Xiyan Vil., Yanchao Dist., Kaohsiung City 82442, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Gongcheng Rd., Xiyan Vil., Yanchao Dist., Kaohsiung City 82442, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -5099,8 +5302,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市瑞芳區靜安路四段1巷1號(五分山雷達站旁)',
-	eAddr: 'No. 1, Ln. 1, Sec. 4, Jing’an Rd., Ruifang Dist., New Taipei City 22452, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Ln. 1, Sec. 4, Jing’an Rd., Ruifang Dist., New Taipei City 22452, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -5124,8 +5328,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣埔里鎮大城里大城路169號(縣立大成國中)',
-	eAddr: 'No. 169, Dacheng Rd., Dacheng Vil., Puli Township, Nantou County 54545, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 169, Dacheng Rd., Dacheng Vil., Puli Township, Nantou County 54545, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5149,8 +5354,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市旗津區819號(太平島)',
-	eAddr: 'No.879,  Qijin Dist., Kaohsiung City 805, Taiwan (Itu Aba Island) (R.O.C.)'
-  },
+	eAddr: 'No.879,  Qijin Dist., Kaohsiung City 805, Taiwan (Itu Aba Island) (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -5174,8 +5380,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '連江縣東引鄉(東引機場候機室旁)',
-	eAddr: 'Near Dongyin Airport, Dongyin Township, Lienchiang County 212, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Dongyin Airport, Dongyin Township, Lienchiang County 212, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -5199,8 +5406,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣麥寮鄉臺塑工業園區1號',
-	eAddr: 'No.1, Taisu Industrial Park, Mailiao Township, Yunlin County 638, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Taisu Industrial Park, Mailiao Township, Yunlin County 638, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5224,8 +5432,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市北區文賢路678號(和緯消防分隊)',
-	eAddr: 'No. 678, Wenxian Rd., North Dist., Tainan City 70451, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 678, Wenxian Rd., North Dist., Tainan City 70451, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5249,8 +5458,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市南區明興路2號(南區區公所)',
-	eAddr: 'No. 2, Mingxing Rd., South Dist., Tainan City 70261, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Mingxing Rd., South Dist., Tainan City 70261, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5274,8 +5484,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市龍崎區中坑里5鄰13號',
-	eAddr: 'No. 13, Zhongkeng, 5th Neighborhood, Longqi Dist., Tainan City 71942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 13, Zhongkeng, 5th Neighborhood, Longqi Dist., Tainan City 71942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5299,8 +5510,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市安平區城平路2號(台江國家公園管理處)',
-	eAddr: 'No. 2, Chengping Rd., Anping Dist., Tainan City 70841, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Chengping Rd., Anping Dist., Tainan City 70841, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5324,8 +5536,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市大樹區溪埔里之台29線近83K處',
-	eAddr: 'Provincial Road No. 29 83KM, Xipu Vil., Dashu Dist., Kaohsiung City 840, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Provincial Road No. 29 83KM, Xipu Vil., Dashu Dist., Kaohsiung City 840, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5349,8 +5562,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市麻豆區興國路9號(麻豆消防分隊)',
-	eAddr: 'No. 9, Xingguo Rd., Madou Dist., Tainan City 72148, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 9, Xingguo Rd., Madou Dist., Tainan City 72148, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5374,8 +5588,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市官田區中山路一段132號(官田區公所)',
-	eAddr: 'No. 132, Sec. 1, Zhongshan Rd., Guantian Dist., Tainan City 72041, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 132, Sec. 1, Zhongshan Rd., Guantian Dist., Tainan City 72041, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5399,8 +5614,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市西港區中山路450號(西港消防分隊)',
-	eAddr: 'No. 450, Zhongshan Rd., Xigang Dist., Tainan City 72341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 450, Zhongshan Rd., Xigang Dist., Tainan City 72341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5424,8 +5640,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市安定區南安里33-11號(安定消防分隊)',
-	eAddr: 'No. 33-11, Nan’an Vil., Anding Dist., Tainan City 74549, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 33-11, Nan’an Vil., Anding Dist., Tainan City 74549, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5449,8 +5666,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市仁德區仁義路432號(仁德消防分隊)',
-	eAddr: 'No. 432, Renyi Rd., Rende Dist., Tainan City 71749, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 432, Renyi Rd., Rende Dist., Tainan City 71749, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5474,8 +5692,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市關廟區中正路998號(關廟區公所)',
-	eAddr: 'No. 998, Zhongzheng Rd., Guanmiao Dist., Tainan City 71846, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 998, Zhongzheng Rd., Guanmiao Dist., Tainan City 71846, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5499,8 +5718,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市山上區豐德里隙子口5-1號(中油豐德供油中心)',
-	eAddr: 'No. 5-1, Xizikou, Fengde Vil., Shanshang Dist., Tainan City 74341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 5-1, Xizikou, Fengde Vil., Shanshang Dist., Tainan City 74341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5524,8 +5744,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市左鎮區中正里171-4號(左鎮區公所)',
-	eAddr: 'No. 171-4, Zhongzheng Vil., Zuozhen Dist., Tainan City 71341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 171-4, Zhongzheng Vil., Zuozhen Dist., Tainan City 71341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5549,8 +5770,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市桃源區復興里復興巷1鄰15號',
-	eAddr: 'No. 15, Fuxing Ln., 1st Neighborhood, Fuxing Vil., Taoyuan Dist., Kaohsiung City 84841, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 15, Fuxing Ln., 1st Neighborhood, Fuxing Vil., Taoyuan Dist., Kaohsiung City 84841, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -5574,8 +5796,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市新屋區東興路二段946號',
-	eAddr: 'No.946, Sec. 2, Dongxing Rd., Xinwu Dist., Taoyuan City 327, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.946, Sec. 2, Dongxing Rd., Xinwu Dist., Taoyuan City 327, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5599,8 +5822,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣高樹鄉興中路329號(高樹鄉公所)',
-	eAddr: 'No. 330, Xingzhong Rd., Gaoshu Township, Pingtung County 90641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 330, Xingzhong Rd., Gaoshu Township, Pingtung County 90641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5624,8 +5848,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣長治鄉德成村中興路572-1號(長治消防分隊)',
-	eAddr: 'No. 572-1, Zhongxing Rd., Decheng Vil., Changzhi Township, Pingtung County 90841, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 572-1, Zhongxing Rd., Decheng Vil., Changzhi Township, Pingtung County 90841, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5649,8 +5874,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣九如鄉九如路二段416號(九如鄉公所)',
-	eAddr: 'No. 416, Sec. 2, Jiuru Rd., Jiuru Township, Pingtung County 90443, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 416, Sec. 2, Jiuru Rd., Jiuru Township, Pingtung County 90443, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5674,8 +5900,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣崁頂鄉崁頂村興農路29-10號(崁頂消防分隊)',
-	eAddr: 'No. 20-10, Xingnong Rd., Kanding Vil., Kanding Township, Pingtung County 92442, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 20-10, Xingnong Rd., Kanding Vil., Kanding Township, Pingtung County 92442, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5699,8 +5926,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣佳冬鄉佳昌路2號(佳冬鄉公所)',
-	eAddr: 'No. 2, Jiachang Rd., Jiadong Township, Pingtung County 93142, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Jiachang Rd., Jiadong Township, Pingtung County 93142, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5724,8 +5952,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣新埤鄉民眾路103號(新埤消防分隊)',
-	eAddr: 'No. 103, Minzhong Rd., Xinpi Township, Pingtung County 92541, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 103, Minzhong Rd., Xinpi Township, Pingtung County 92541, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5749,8 +5978,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣新園鄉仙吉村店口路116號(新園消防分隊)',
-	eAddr: 'No. 116, Diankou Rd., Xianji Vil., Xinyuan Township, Pingtung County 93245, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 116, Diankou Rd., Xianji Vil., Xinyuan Township, Pingtung County 93245, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5774,8 +6004,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣麟洛鄉中山路158號(麟洛鄉公所)',
-	eAddr: 'No. 158, Zhongshan Rd., Linluo Township, Pingtung County 90942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 158, Zhongshan Rd., Linluo Township, Pingtung County 90942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5799,8 +6030,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣南州鄉溪南村人和路241號(南州消防分隊)',
-	eAddr: 'No. 241, Renhe Rd., Xinan Vil., Nanzhou Township, Pingtung County 92641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 241, Renhe Rd., Xinan Vil., Nanzhou Township, Pingtung County 92641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5824,8 +6056,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市梓官區梓官路258號(梓官區公所)',
-	eAddr: 'No. 258, Ziguan Rd., Ziguan Dist., Kaohsiung City 82641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 258, Ziguan Rd., Ziguan Dist., Kaohsiung City 82641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5849,8 +6082,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市永安區永安路32號(永安消防分隊)',
-	eAddr: 'No. 32, Yong’an Rd., Yong’an Dist., Kaohsiung City 82842, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 32, Yong’an Rd., Yong’an Dist., Kaohsiung City 82842, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5874,8 +6108,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市茄萣區濱海路四段27號(茄萣區公所)',
-	eAddr: 'No. 27, Sec. 4, Binhai Rd., Qieding Dist., Kaohsiung City 85241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 27, Sec. 4, Binhai Rd., Qieding Dist., Kaohsiung City 85241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5899,8 +6134,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市湖內區中山路一段290-1號(湖街派出所)',
-	eAddr: 'No. 290-1, Sec. 1, Zhongshan Rd., Hunei Dist., Kaohsiung City 82941, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 290-1, Sec. 1, Zhongshan Rd., Hunei Dist., Kaohsiung City 82941, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5924,8 +6160,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市彌陀區中正北路7號(彌陀消防分隊)',
-	eAddr: 'No. 7, Zhongzheng N. Rd., Mituo Dist., Kaohsiung City 82743, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 7, Zhongzheng N. Rd., Mituo Dist., Kaohsiung City 82743, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5949,8 +6186,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市岡山區岡山路341號(岡山地政事務所)',
-	eAddr: 'No. 341, Gangshan Rd., Gangshan Dist., Kaohsiung City 82049, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 341, Gangshan Rd., Gangshan Dist., Kaohsiung City 82049, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5974,8 +6212,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市仁武區中正路133號(仁武區公所)',
-	eAddr: 'No. 133, Zhongzheng Rd., Renwu Dist., Kaohsiung City 81451, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 133, Zhongzheng Rd., Renwu Dist., Kaohsiung City 81451, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -5999,8 +6238,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市鼓山區臨海一路61-1號(鼓山消防分隊)',
-	eAddr: 'No. 61-1, Linhai 1st Rd., Gushan Dist., Kaohsiung City 80441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 61-1, Linhai 1st Rd., Gushan Dist., Kaohsiung City 80441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6024,8 +6264,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市三民區十全一路88號(十全消防分隊)',
-	eAddr: 'No. 88, Shiquan 1st Rd., Sanmin Dist., Kaohsiung City 80761, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 88, Shiquan 1st Rd., Sanmin Dist., Kaohsiung City 80761, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6049,8 +6290,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市苓雅區三多一路162號(苓雅消防分隊)',
-	eAddr: 'No. 162, Sanduo 1st Rd., Lingya Dist., Kaohsiung City 80282, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 162, Sanduo 1st Rd., Lingya Dist., Kaohsiung City 80282, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6074,8 +6316,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市林園區林園北路179號(林園區公所)',
-	eAddr: 'No. 179, Linyuan N. Rd., Linyuan Dist., Kaohsiung City 83252, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 179, Linyuan N. Rd., Linyuan Dist., Kaohsiung City 83252, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6099,8 +6342,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市大寮區鳳林三路492號(大寮區公所)',
-	eAddr: 'No. 492, Fenglin 3rd Rd., Daliao Dist., Kaohsiung City 83155, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 492, Fenglin 3rd Rd., Daliao Dist., Kaohsiung City 83155, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6124,8 +6368,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市旗山區延平一路499號(旗山區公所)',
-	eAddr: 'No. 499, Yanping 1st Rd., Qishan Dist., Kaohsiung City 84241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 499, Yanping 1st Rd., Qishan Dist., Kaohsiung City 84241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6149,8 +6394,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市橋頭區隆豐路1號(橋頭區公所)',
-	eAddr: 'No. 1, Longfeng Rd., Qiaotou Dist., Kaohsiung City 82543, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Longfeng Rd., Qiaotou Dist., Kaohsiung City 82543, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6174,8 +6420,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市大社區自強街1號(大社區公所)',
-	eAddr: 'No. 1, Ziqiang St., Dashe Dist., Kaohsiung City 81547, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Ziqiang St., Dashe Dist., Kaohsiung City 81547, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6199,8 +6446,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市大內區大內里63號(大內國小)',
-	eAddr: 'No. 63, Danei Vil., Danei Dist., Tainan City 742, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 63, Danei Vil., Danei Dist., Tainan City 742, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6224,8 +6472,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市新化區口埤18號(新化分場)',
-	eAddr: 'No. 18, Koupi, Xinhua Dist., Tainan City 71249, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 18, Koupi, Xinhua Dist., Tainan City 71249, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6249,8 +6498,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市新市區永就里53號(番子寮農場)',
-	eAddr: 'No. 53, Yongjiu Vil., Xinshi Dist., Tainan City 74448, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 53, Yongjiu Vil., Xinshi Dist., Tainan City 74448, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6274,8 +6524,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣霧臺鄉(屏東事業區46林班、離山地文化村方向、轉播站前)',
-	eAddr: 'No. 46 Forest Compartment, Pingtung Forest Dist., Wutai Township, Pingtung County 902, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 46 Forest Compartment, Pingtung Forest Dist., Wutai Township, Pingtung County 902, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6299,8 +6550,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣瑪家鄉瑪家村4鄰24號(後山)',
-	eAddr: 'No. 24, 4th Neighborhood, Majia Vil., Majia Township, Pingtung County 90341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 24, 4th Neighborhood, Majia Vil., Majia Township, Pingtung County 90341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6324,8 +6576,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市阿蓮區阿蓮里民生路94號(阿蓮區公所)',
-	eAddr: 'No. 94, Minsheng Rd., Alian Dist., Kaohsiung City 822203 , Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 94, Minsheng Rd., Alian Dist., Kaohsiung City 822203 , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6349,8 +6602,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣鹽埔鄉七份路21號(彭厝國小)',
-	eAddr: 'Pengcuo Elementary School, Yanpu Township, Pingtung County 907, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Pengcuo Elementary School, Yanpu Township, Pingtung County 907, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6374,8 +6628,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市六甲區王爺里24號(六甲國小湖東分校)',
-	eAddr: 'No. 24, Wangye Vil., Liujia Dist., Tainan City 734, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 24, Wangye Vil., Liujia Dist., Tainan City 734, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -6399,8 +6654,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市楊梅區金華街100號(楊心國小)',
-	eAddr: 'No. 100, Jinhua St., Yangmei Dist., Taoyuan City 32642, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 100, Jinhua St., Yangmei Dist., Taoyuan City 32642, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6424,8 +6680,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣春日鄉(鄉公所資源回收廠旁)',
-	eAddr: 'Chueng Jih Elementary School, Chunri Township, Pingtung County 942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Chueng Jih Elementary School, Chunri Township, Pingtung County 942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6449,8 +6706,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市鳳山區文山路園藝巷4號(鳳山熱帶園藝試驗分所)',
-	eAddr: 'No. 4, Yuanyi Ln., Wenshan Rd., Fengshan Dist., Kaohsiung City 83052, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 4, Yuanyi Ln., Wenshan Rd., Fengshan Dist., Kaohsiung City 83052, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6474,8 +6732,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市小港區水庫段96-1號(鳳山給水廠)',
-	eAddr: 'Land No. 96-1, Shuiku Sec., Xiaogang Dist., Kaohsiung City 812, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 96-1, Shuiku Sec., Xiaogang Dist., Kaohsiung City 812, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6499,8 +6758,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣水林鄉松中村蔦松路213號(蔦松國小)',
-	eAddr: 'No. 213, Niaosong Rd., Songzhong Vil., Shuilin Township, Yunlin County 65242, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 213, Niaosong Rd., Songzhong Vil., Shuilin Township, Yunlin County 65242, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -6524,8 +6784,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣壽豐鄉大學路二段1號(國立東華大學)',
-	eAddr: 'No. 1, Sec. 2, University Road, Shoufeng Township, Hualien County 97401, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Sec. 2, University Road, Shoufeng Township, Hualien County 97401, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -6549,8 +6810,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣萬巒鄉新隆路64號、佳佐段180號(萬隆農場)',
-	eAddr: 'Wanlong Farm, No. 64, Xinlong Rd., Wanluan Township, Pingtung County 92361, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Wanlong Farm, No. 64, Xinlong Rd., Wanluan Township, Pingtung County 92361, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -6574,8 +6836,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市中壢區成章四街120號(內壢高中)',
-	eAddr: 'No.120, Chengzhang 4th St., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.120, Chengzhang 4th St., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -6599,8 +6862,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市龜山區國一高速公路五楊北上44K處',
-	eAddr: 'Freeway N0. 1 - Elevated N44k'
-  },
+	eAddr: 'Freeway N0. 1 - Elevated N44k',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -6624,8 +6888,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '金門縣金寧鄉頂林路315號(金門縣消防局)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -6649,8 +6914,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '金門縣金沙鎮環島北路四段465號(自來水廠榮湖淨水場)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6674,8 +6940,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣古坑鄉棋盤村棋山49號(棋山國小)',
-	eAddr: 'No. 49, Qishan, Qipan Vil., Gukeng Township, Yunlin County 64641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 49, Qishan, Qipan Vil., Gukeng Township, Yunlin County 64641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -6699,8 +6966,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹市東區光復路二段321號(工研院光復院區6館)',
-	eAddr: 'No. 321, Sec. 2, Guangfu Rd., East Dist., Hsinchu City 30011, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 321, Sec. 2, Guangfu Rd., East Dist., Hsinchu City 30011, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6724,8 +6992,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣溪州鄉溪下路四段560號(溪州鄉公所)',
-	eAddr: 'No. 560, Sec. 4, Xixia Rd., Xizhou Township, Changhua County 52441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 560, Sec. 4, Xixia Rd., Xizhou Township, Changhua County 52441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6749,8 +7018,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣二林鎮仁愛路200號(二林消防分隊)',
-	eAddr: 'No. 200, Ren’ai Rd., Erlin Township, Changhua County 52655, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 200, Ren’ai Rd., Erlin Township, Changhua County 52655, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6774,8 +7044,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣大城鄉東城村中平路185號(大城鄉公所)',
-	eAddr: 'No. 185, Zhongping Rd., Dongcheng Vil., Dacheng Township, Changhua County 52766, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 185, Zhongping Rd., Dongcheng Vil., Dacheng Township, Changhua County 52766, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6799,8 +7070,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣水里鄉中山路一段515號(玉山國家公園管理處)',
-	eAddr: 'No. 515, Sec. 1, Zhongshan Rd., Shuili Township, Nantou County 55344, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 515, Sec. 1, Zhongshan Rd., Shuili Township, Nantou County 55344, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6824,8 +7096,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣魚池鄉東池村魚池街194號(衛生所)',
-	eAddr: 'No. 194, Yuchi St., Dongchi Vil., Yuchi Township, Nantou County 55541, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 194, Yuchi St., Dongchi Vil., Yuchi Township, Nantou County 55541, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6849,8 +7122,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣集集鎮民生東路1號(特有生物研究保育中心)',
-	eAddr: 'No. 1, Minsheng E. Rd., Jiji Township, Nantou County 55244, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Minsheng E. Rd., Jiji Township, Nantou County 55244, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6874,8 +7148,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉仁和路50號(台電仁愛服務所)',
-	eAddr: 'No. 50, Renhe Rd., Ren’ai Township, Nantou County 54641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 50, Renhe Rd., Ren’ai Township, Nantou County 54641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6899,8 +7174,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣名間鄉董門巷2號(立體停車場)',
-	eAddr: 'No. 2, Dongmen Ln., Mingjian Township, Nantou County 55141, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Dongmen Ln., Mingjian Township, Nantou County 55141, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6924,8 +7200,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣國姓鄉民族街40號(老人文康活動中心)',
-	eAddr: 'No. 40, Minzu St., Guoxing Township, Nantou County 54443, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 40, Minzu St., Guoxing Township, Nantou County 54443, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6949,8 +7226,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣土庫鎮建國路41號(土庫消防分隊)',
-	eAddr: 'No. 41, Jianguo Rd., Tuku Township, Yunlin County 63345, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 41, Jianguo Rd., Tuku Township, Yunlin County 63345, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6974,8 +7252,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣斗六市鎮北路345-1號(斗六消防分隊)',
-	eAddr: 'No. 345-1, Zhenbei Rd., Douliu City, Yunlin County 64052, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 345-1, Zhenbei Rd., Douliu City, Yunlin County 64052, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -6999,8 +7278,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣北港鎮大同路565號(北港消防分隊)',
-	eAddr: 'No. 565, Datong Rd., Beigang Township, Yunlin County 65150, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 565, Datong Rd., Beigang Township, Yunlin County 65150, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7024,8 +7304,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣西螺鎮公正路211號(西螺消防分隊)',
-	eAddr: 'No. 211, Gongzheng Rd., Xiluo Township, Yunlin County 64857, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 211, Gongzheng Rd., Xiluo Township, Yunlin County 64857, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7049,8 +7330,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣褒忠鄉中正路451號(褒忠鄉公所)',
-	eAddr: 'No. 451, Zhongzheng Rd., Baozhong Township, Yunlin County 63441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 451, Zhongzheng Rd., Baozhong Township, Yunlin County 63441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7074,8 +7356,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣二崙鄉中正路80號(二崙消防分隊)',
-	eAddr: 'No. 80, Zhongzheng Rd., Erlun Township, Yunlin County 64941, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 80, Zhongzheng Rd., Erlun Township, Yunlin County 64941, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7099,8 +7382,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣大埤鄉中山路8號(大埤鄉公所)',
-	eAddr: 'No. 8, Zhongshan Rd., Dapi Township, Yunlin County 63146, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 8, Zhongshan Rd., Dapi Township, Yunlin County 63146, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7124,8 +7408,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣斗南鎮延平路二段266號(停一立體停車場)',
-	eAddr: 'No. 266, Sec. 2, Yanping Rd., Dounan Township, Yunlin County 63041, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 266, Sec. 2, Yanping Rd., Dounan Township, Yunlin County 63041, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7149,8 +7434,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣林內鄉中正路685號(林內消防分隊)',
-	eAddr: 'No. 685, Zhongzheng Rd., Linnei Township, Yunlin County 64342, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 685, Zhongzheng Rd., Linnei Township, Yunlin County 64342, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7174,8 +7460,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣莿桐鄉和平路53號(莿桐鄉公所)',
-	eAddr: 'No. 53, Heping Rd., Citong Township, Yunlin County 64741, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 53, Heping Rd., Citong Township, Yunlin County 64741, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7199,8 +7486,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣元長鄉長南村仁愛街2號(元長鄉公所)',
-	eAddr: 'No. 2, Ren’ai St., Changnan Vil., Yuanchang Township, Yunlin County 65545, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Ren’ai St., Changnan Vil., Yuanchang Township, Yunlin County 65545, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7224,8 +7512,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣水林鄉水北村水林路12號(水林鄉公所)',
-	eAddr: 'No. 12, Shuilin Rd., Shuibei Vil., Shuilin Township, Yunlin County 65241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 12, Shuilin Rd., Shuibei Vil., Shuilin Township, Yunlin County 65241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7249,8 +7538,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣臺西鄉中山路110巷38號(臺西消防分隊)',
-	eAddr: 'No. 38, Ln. 110, Zhongshan Rd., Taixi Township, Yunlin County 63642, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 38, Ln. 110, Zhongshan Rd., Taixi Township, Yunlin County 63642, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7274,8 +7564,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣中埔鄉中埔村128號(中埔鄉公所)',
-	eAddr: 'No. 128, Zhongpu Vil., Zhongpu Township, Chiayi County 60668, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 128, Zhongpu Vil., Zhongpu Township, Chiayi County 60668, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7299,8 +7590,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣朴子市竹村里36號(竹村國小)',
-	eAddr: 'No. 36, Zhucun Vil., Puzi City, Chiayi County 613, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 36, Zhucun Vil., Puzi City, Chiayi County 613, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7324,8 +7616,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣溪口鄉中正東路103號(溪口國中學生活動中心)',
-	eAddr: 'No. 103, Zhongzheng E. Rd., Xikou Township, Chiayi County 62349, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 103, Zhongzheng E. Rd., Xikou Township, Chiayi County 62349, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7349,8 +7642,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣大林鎮新興街110號(大林地政事務所)',
-	eAddr: 'No. 110, Xinxing St., Dalin Township, Chiayi County 62244, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 110, Xinxing St., Dalin Township, Chiayi County 62244, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7374,8 +7668,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣太保市太保里31號(太保市圖書館)',
-	eAddr: 'No. 31, Taibao Vil., Taibao City, Chiayi County 61241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 31, Taibao Vil., Taibao City, Chiayi County 61241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7399,8 +7694,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣水上鄉三鎮村三鎮路119號(水上消防分隊)',
-	eAddr: 'No. 119, Sanzhen Rd., Sanzhen Vil., Shuishang Township, Chiayi County 60859, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 119, Sanzhen Rd., Sanzhen Vil., Shuishang Township, Chiayi County 60859, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7424,8 +7720,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣竹崎鄉竹崎村舊車站79號(竹崎消防分隊)',
-	eAddr: 'No. 79, Jiuchezhan, Zhuqi Vil., Zhuqi Township, Chiayi County 60447, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 79, Jiuchezhan, Zhuqi Vil., Zhuqi Township, Chiayi County 60447, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7449,8 +7746,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣東石鄉東石村3號(東石鄉公所)',
-	eAddr: 'No. 3, Dongshi Vil., Dongshi Township, Chiayi County 61441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 3, Dongshi Vil., Dongshi Township, Chiayi County 61441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7474,8 +7772,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣番路鄉下坑村蔡公店101號(番路鄉公所)',
-	eAddr: 'No. 101, Caigongdian, Xiakeng Vil., Fanlu Township, Chiayi County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 101, Caigongdian, Xiakeng Vil., Fanlu Township, Chiayi County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7499,8 +7798,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義市東區親水路123號(第5河川局水情中心)',
-	eAddr: 'No. 123, Qinshui Rd., East Dist., Chiayi City 60065, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 123, Qinshui Rd., East Dist., Chiayi City 60065, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7524,8 +7824,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣六腳鄉蒜頭村73-2號(六腳消防分隊)',
-	eAddr: 'No. 73-2, Suantou Vil., Liujiao Township, Chiayi County 615, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 73-2, Suantou Vil., Liujiao Township, Chiayi County 615, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7549,8 +7850,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣布袋鎮龍江里2-2號(布袋消防分隊)',
-	eAddr: 'No. 2-2, Longjiang Rd., Budai Township, Chiayi County 62542, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2-2, Longjiang Rd., Budai Township, Chiayi County 62542, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7574,8 +7876,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣民雄鄉文化路7號(民雄鄉公所)',
-	eAddr: 'No. 7, Wenhua Rd., Minxiong Township, Chiayi County 62142, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 7, Wenhua Rd., Minxiong Township, Chiayi County 62142, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7599,8 +7902,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣梅山鄉中山路282號(梅山鄉公所)',
-	eAddr: 'No. 282, Zhongshan Rd., Meishan Township, Chiayi County 60341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 282, Zhongshan Rd., Meishan Township, Chiayi County 60341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7624,8 +7928,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣鹿草鄉西井村287號(鹿草鄉公所)',
-	eAddr: 'No. 287, Xijing Vil., Lucao Township, Chiayi County 611, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 287, Xijing Vil., Lucao Township, Chiayi County 611, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7649,8 +7954,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣新港鄉公園路28號(新港消防分隊)',
-	eAddr: 'No. 28, Gongyuan Rd., Xingang Township, Chiayi County 61693, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28, Gongyuan Rd., Xingang Township, Chiayi County 61693, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7674,8 +7980,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市白河區中山路6號(白河消防分隊)',
-	eAddr: 'No. 6, Zhongshan Rd., Baihe Dist., Tainan City 73257, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 6, Zhongshan Rd., Baihe Dist., Tainan City 73257, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7699,8 +8006,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市學甲區華宗路313號(學甲區公所)',
-	eAddr: 'No. 313, Huazong Rd., Xuejia Dist., Tainan City 72645, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 313, Huazong Rd., Xuejia Dist., Tainan City 72645, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7724,8 +8032,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市鹽水區竹埔里1號(竹埔派出所)',
-	eAddr: 'No. 1, Zhupu Vil., Yanshui Dist., Tainan City, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Zhupu Vil., Yanshui Dist., Tainan City, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7749,8 +8058,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市白河區關嶺里94-3號(仙草國小關嶺分校)',
-	eAddr: 'No. 94-3, Guanling Vil., Baihe Dist., Tainan City 732, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 94-3, Guanling Vil., Baihe Dist., Tainan City 732, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7774,8 +8084,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市新營區中正路30號(南瀛親子館)',
-	eAddr: 'No. 30, Zhongzheng Rd., Xinying Dist., Tainan City 73049, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 30, Zhongzheng Rd., Xinying Dist., Tainan City 73049, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7799,8 +8110,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市後壁區後壁里129號(後壁圖書館)',
-	eAddr: 'No. 129, Houbi Vil., Houbi Dist., Tainan City 73143, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 129, Houbi Vil., Houbi Dist., Tainan City 73143, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7824,8 +8136,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市將軍區將軍里58號(將軍國小)',
-	eAddr: 'No. 58, Jianggui Vil., Jiangjun Dist., Tainan City 72545, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 58, Jianggui Vil., Jiangjun Dist., Tainan City 72545, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7849,8 +8162,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣南投市玉井街5號(南投市公所)',
-	eAddr: 'No. 5, Yujing St., Longquan Vil., Nantou City, Nantou County 54048, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 5, Yujing St., Longquan Vil., Nantou City, Nantou County 54048, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7874,8 +8188,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市東山區東河里54號(東河水利工作站)',
-	eAddr: 'No. 54, Donghe Vil., Dongshan Dist., Tainan City 733, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 54, Donghe Vil., Dongshan Dist., Tainan City 733, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -7899,8 +8214,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣義竹鄉東光村7號(台糖東後寮農場)',
-	eAddr: 'No. 7, Dongguang Vil., Yizhu Township, Chiayi County 624, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 7, Dongguang Vil., Yizhu Township, Chiayi County 624, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7924,8 +8240,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市下營區仁里里(下營國小附近)',
-	eAddr: 'Near Xiaying Elementary School, Renli Vil., Xiaying Dist., Tainan City 735, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Xiaying Elementary School, Renli Vil., Xiaying Dist., Tainan City 735, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -7949,8 +8266,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市北門區北門里舊埕108號(北門區公所)',
-	eAddr: 'No. 108, Jiucheng, Beimen Vil., Beimen Dist., Tainan City 72742, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 108, Jiucheng, Beimen Vil., Beimen Dist., Tainan City 72742, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -7974,8 +8292,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市士林區華岡路55號',
-	eAddr: 'No.55, Hwa-Kang Rd., Yangmingshan, Shilin Dist., Taipei City 111, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.55, Hwa-Kang Rd., Yangmingshan, Shilin Dist., Taipei City 111, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -7999,8 +8318,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市中壢區中大路300號',
-	eAddr: 'No.300, Zhongda Rd., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.300, Zhongda Rd., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8024,8 +8344,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市林口區仁愛路二段173號(林口高中)',
-	eAddr: 'No. 173, Sec. 2, Ren’ai Rd., Linkou Dist., New Taipei City 24449, Taiwan(R.O.C.)'
-  },
+	eAddr: 'No. 173, Sec. 2, Ren’ai Rd., Linkou Dist., New Taipei City 24449, Taiwan(R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8049,8 +8370,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市和平區(桃山山屋叉路解說牌附近)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8074,8 +8396,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市和平區(雪山東峰停機坪旁)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -8099,8 +8422,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '澎湖縣望安鄉花嶼村2號(花嶼國小)',
-	eAddr: 'No. 2, Huayu Vil., Wang’an Township, Penghu County 88246, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Huayu Vil., Wang’an Township, Penghu County 88246, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -8124,8 +8448,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '澎湖縣西嶼鄉195號(西嶼燈塔)',
-	eAddr: 'No. 195, Xiyu Township, Penghu County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 195, Xiyu Township, Penghu County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -8149,8 +8474,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '連江縣莒光鄉福正村1號(莒光遊客中心)',
-	eAddr: 'No. 1, Fuzheng Vil., Juguang Township, Lienchiang County 211, Taiwan(R.O.C.)'
-  },
+	eAddr: 'No. 1, Fuzheng Vil., Juguang Township, Lienchiang County 211, Taiwan(R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8174,8 +8500,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市士林區平菁街101號(平等國小)',
-	eAddr: 'No. 101, Pingjing St., Shilin Dist., Taipei City 11149, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 101, Pingjing St., Shilin Dist., Taipei City 11149, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -8199,8 +8526,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '金門縣烏坵鄉',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8224,8 +8552,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市大安區羅斯福路四段1號',
-	eAddr: 'No.1, Sec. 4, Roosevelt Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Sec. 4, Roosevelt Rd., Zhongzheng Dist., Taipei City 100, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8249,8 +8578,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣信義鄉玉山主峰往北峰叉路附近',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8274,8 +8604,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣古坑鄉麻園村1-10號',
-	eAddr: 'No.1-10, Mayuan, Gukeng Township, Yunlin County 646, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1-10, Mayuan, Gukeng Township, Yunlin County 646, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8299,8 +8630,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市和平區中坑里中坑段39地號',
-	eAddr: 'Land No.39, Zhongkeng Sec., Zhongkeng Vil., Heping Dist., Taichung City 424, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No.39, Zhongkeng Sec., Zhongkeng Vil., Heping Dist., Taichung City 424, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8324,8 +8656,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市松山區敦化北路1號(松山運動中心)',
-	eAddr: 'No.1, Dunhua N. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Dunhua N. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8349,8 +8682,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣蘭嶼鄉椰油村37號(蘭嶼高中內)',
-	eAddr: 'No.37, Yeyou, Lanyu Township, Taitung County 95241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.37, Yeyou, Lanyu Township, Taitung County 95241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8374,8 +8708,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市龜山區文化一路250號(國立體育大學田徑場)',
-	eAddr: 'No. 250, Wenhua 1st Rd., Guishan Dist., Taoyuan City 33301, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 250, Wenhua 1st Rd., Guishan Dist., Taoyuan City 33301, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8399,8 +8734,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣卓溪鄉瑞穗林道約7.5K瑞欣礦區下方空地',
-	eAddr: 'Ruisui Forest Rd. 7.5K, Zhuoxi Township, Hualien County 982, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Ruisui Forest Rd. 7.5K, Zhuoxi Township, Hualien County 982, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8424,8 +8760,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣瑞穗鄉鶴岡村167號(鶴岡國小)',
-	eAddr: 'No. 167, Hegang Vil., Ruisui Township, Hualien County 97844, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 167, Hegang Vil., Ruisui Township, Hualien County 97844, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8449,8 +8786,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣富里鄉東里村大莊路52號(東里消防分隊)',
-	eAddr: 'No. 52, Dazhuang Rd., Dongli Vil., Fuli Township, Hualien County 98392, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 52, Dazhuang Rd., Dongli Vil., Fuli Township, Hualien County 98392, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8474,8 +8812,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣玉里鎮赤柯山段338地號',
-	eAddr: 'Land No. 338, Chikeshan Sec., Yuli Township, Hualien County 981, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 338, Chikeshan Sec., Yuli Township, Hualien County 981, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8499,8 +8838,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣玉里鎮德武里附近山區道路旁(德武段680地號內)',
-	eAddr: 'Dewu Vil., Yuli Township, Hualien County 981, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dewu Vil., Yuli Township, Hualien County 981, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8524,8 +8864,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉富世村127號(富世國小)',
-	eAddr: 'No. 127, Fushi Vil., Xiulin Township, Hualien County 97251, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 127, Fushi Vil., Xiulin Township, Hualien County 97251, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8549,8 +8890,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣新城鄉大漢村光復路570號(新城鄉公所)',
-	eAddr: 'No. 1, Da\'an St.., Dahan Vil.,Xincheng Township, Hualien County 971065, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Da\'an St.., Dahan Vil.,Xincheng Township, Hualien County 971065, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8574,8 +8916,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣卓溪鄉卓溪村中正路65-5號(卓溪鄉立圖書館)',
-	eAddr: 'No. 65-5, Zhongzheng Rd., Zhuoxi Vil., Zhuoxi Township, Hualien County 98249, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 65-5, Zhongzheng Rd., Zhuoxi Vil., Zhuoxi Township, Hualien County 98249, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8599,8 +8942,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣鳳林鎮信義路200號(鳳林地政事務所)',
-	eAddr: 'No. 200, Xinyi Rd., Fenglin Township, Hualien County 975, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 200, Xinyi Rd., Fenglin Township, Hualien County 975, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8624,8 +8968,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣吉安鄉南濱路一段531號(水資源回收中心)',
-	eAddr: 'No. 531, Sec. 1, Nanbin Rd., Ji’an Township, Hualien County 97356, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 531, Sec. 1, Nanbin Rd., Ji’an Township, Hualien County 97356, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8649,8 +8994,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣鳳林鎮長橋里長橋路2號(長橋國小)',
-	eAddr: 'No. 2, Changqiao Rd., Changqiao Vil., Fenglin Township, Hualien County 97543, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Changqiao Rd., Changqiao Vil., Fenglin Township, Hualien County 97543, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8674,8 +9020,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '基隆市七堵區東新街22號(基隆商工樓頂)',
-	eAddr: 'No.22, Dongxin St., Qidu Dist., Keelung City 206, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.22, Dongxin St., Qidu Dist., Keelung City 206, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8699,8 +9046,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣壽豐鄉水璉村蕃薯寮牛山段607地號',
-	eAddr: 'Fanshuliao, Shuilian Vil., Shoufeng Township, Hualien County 974, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fanshuliao, Shuilian Vil., Shoufeng Township, Hualien County 974, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8724,8 +9072,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣後龍鎮高鐵三路268號(高鐵苗栗站外)',
-	eAddr: 'No.268, Gaotie 3rd Rd., Houlong Township, Miaoli County 35648, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.268, Gaotie 3rd Rd., Houlong Township, Miaoli County 35648, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8749,8 +9098,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '雲林縣虎尾鎮站前東路301號(高鐵雲林站外)',
-	eAddr: 'No.301, Zhanqian E. Rd., Huwei Township, Yunlin County 63247, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.301, Zhanqian E. Rd., Huwei Township, Yunlin County 63247, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8774,8 +9124,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市深坑區文山路1段35號(深坑消防分隊)',
-	eAddr: 'No.35, Sec. 1, Wenshan Rd., Shenkeng Dist., New Taipei City 22242, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.35, Sec. 1, Wenshan Rd., Shenkeng Dist., New Taipei City 22242, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8799,8 +9150,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市新屋區後庄里16號',
-	eAddr: 'No.139, Sec. 2, Dongfu Rd., Xinwu Dist., Taoyuan City 327, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.139, Sec. 2, Dongfu Rd., Xinwu Dist., Taoyuan City 327, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8824,8 +9176,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '基隆市中正區基隆嶼',
-	eAddr: 'Keelung Islet, Zhongzheng Dist., Keelung City 202, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Keelung Islet, Zhongzheng Dist., Keelung City 202, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -8849,8 +9202,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣五峰鄉竹林村羅山11號',
-	eAddr: 'No.8, Luoshan, Wufeng Township, Hsinchu County 311, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.8, Luoshan, Wufeng Township, Hsinchu County 311, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8874,8 +9228,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣大村鄉田洋村松槐路370號',
-	eAddr: 'No.370, Songhuai Rd., Dacun Township, Changhua County 515, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.370, Songhuai Rd., Dacun Township, Changhua County 515, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8899,8 +9254,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣斗南鎮復興路1~15號',
-	eAddr: 'No.1-15, Fuxing Rd., Dounan Township, Yunlin County 630, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1-15, Fuxing Rd., Dounan Township, Yunlin County 630, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -8924,8 +9280,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣義竹鄉中平村中庄84號',
-	eAddr: 'No.84, Zhongzhuang, Yizhu Township, Chiayi County 624, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.84, Zhongzhuang, Yizhu Township, Chiayi County 624, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -8949,8 +9306,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市新化區牧場路70號',
-	eAddr: 'No.70, Pasture, Xinhua Dist., Tainan City 712, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.70, Pasture, Xinhua Dist., Tainan City 712, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -8974,8 +9332,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣長治鄉德和村德和路2-6號',
-	eAddr: 'No.2-6, Dehe Rd., Changzhi Township, Pingtung County 908, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2-6, Dehe Rd., Changzhi Township, Pingtung County 908, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -8999,8 +9358,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣卑南鄉美農村17號',
-	eAddr: 'No.17, Banjiu, Beinan Township, Taitung County 954, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.17, Banjiu, Beinan Township, Taitung County 954, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9024,8 +9384,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣卑南鄉改良場路36號',
-	eAddr: 'No.36, Gailiangchang, Beinan Township, Taitung County 954, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.36, Gailiangchang, Beinan Township, Taitung County 954, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9049,8 +9410,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '花蓮縣吉安鄉吉安村吉安路二段150號',
-	eAddr: 'No.150, Sec. 2, Ji’an Rd., Ji’an Township, Hualien County 973, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.150, Sec. 2, Ji’an Rd., Ji’an Township, Hualien County 973, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9074,8 +9436,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '宜蘭縣三星鄉大義村上將三段81巷6號',
-	eAddr: 'No.6, Ln. 81, Sec. 3, Shangjiang Rd., Sanxing Township, Yilan County 266, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.6, Ln. 81, Sec. 3, Shangjiang Rd., Sanxing Township, Yilan County 266, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -9099,8 +9462,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市旗山區廣福段213號',
-	eAddr: 'No.3, Nanlong St., Qishan Dist., Kaohsiung City 842, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.3, Nanlong St., Qishan Dist., Kaohsiung City 842, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9124,8 +9488,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市石碇區格頭里北宜路五段12號',
-	eAddr: 'No.12, Sec. 5, Beiyi Rd., Shiding Dist., New Taipei City 223, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.12, Sec. 5, Beiyi Rd., Shiding Dist., New Taipei City 223, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9149,8 +9514,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市楊梅區金龍里中興路324號',
-	eAddr: 'No.324, Zhongxing Rd., Yangmei Dist., Taoyuan City 326, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.324, Zhongxing Rd., Yangmei Dist., Taoyuan City 326, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9174,8 +9540,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣魚池鄉中山路270巷13號',
-	eAddr: 'No.13, Ln. 270, Zhongshan Rd., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.13, Ln. 270, Zhongshan Rd., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9199,8 +9566,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣鹿谷鄉初鄉村仁愛路255號',
-	eAddr: 'No.255, Ren’ai Rd., Lugu Township, Nantou County 558, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.255, Ren’ai Rd., Lugu Township, Nantou County 558, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9224,8 +9592,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣鹿野鄉龍田村北二路66號',
-	eAddr: 'No.66, N. 2nd Rd., Luye Township, Taitung County 955, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.66, N. 2nd Rd., Luye Township, Taitung County 955, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9249,8 +9618,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市中壢區中園路196-1號',
-	eAddr: 'No.196-1, Zhongyuan Rd., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.196-1, Zhongyuan Rd., Zhongli Dist., Taoyuan City 320, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9274,8 +9644,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣西湖鄉五湖村埤頭面207-5號',
-	eAddr: 'No.207-5, Pitoumian, Xihu Township, Miaoli County 368, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.207-5, Pitoumian, Xihu Township, Miaoli County 368, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -9299,8 +9670,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市新化區那菝里牧場112號',
-	eAddr: 'No.112, Pasture, Xinhua Dist., Tainan City 712, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.112, Pasture, Xinhua Dist., Tainan City 712, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -9324,8 +9696,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣恆春鎮墾丁里牧場路1號',
-	eAddr: 'No.1, Muchang Rd., Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Muchang Rd., Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9349,8 +9722,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義市東區民權路2號',
-	eAddr: 'No.2, Minquan Rd., East Dist., Chiayi City 600, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2, Minquan Rd., East Dist., Chiayi City 600, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -9374,8 +9748,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市鳳山區文龍東路530號',
-	eAddr: 'No.530, Wenlong E. Rd., Fengshan Dist., Kaohsiung City 830, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.530, Wenlong E. Rd., Fengshan Dist., Kaohsiung City 830, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9399,8 +9774,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣公館鄉館南村261號',
-	eAddr: 'No.261, Guannan, Gongguan Township, Miaoli County 363, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.261, Guannan, Gongguan Township, Miaoli County 363, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9424,8 +9800,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣大湖鄉民族路42號',
-	eAddr: 'No.42, Minzu Rd., Dahu Township, Miaoli County 364, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.42, Minzu Rd., Dahu Township, Miaoli County 364, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9449,8 +9826,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市新社區興中街46號',
-	eAddr: 'No.46, Xingzhong St., Xinshe Dist., Taichung City 426, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.46, Xingzhong St., Xinshe Dist., Taichung City 426, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -9474,8 +9852,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市汐止區國道1號北向13.32K',
-	eAddr: 'Freeway No. 1 – N13.32K'
-  },
+	eAddr: 'Freeway No. 1 – N13.32K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9499,8 +9878,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣東河鄉七塊厝產業道路附近山區',
-	eAddr: 'Qikuaicuo Industrial Road, Shangde Vil., Donghe Township, Taitung County 959, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Qikuaicuo Industrial Road, Shangde Vil., Donghe Township, Taitung County 959, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9524,8 +9904,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣鹿谷鄉內湖村森林巷9號',
-	eAddr: 'No.9, Senlin Ln., Lugu Township, Nantou County 558, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.9, Senlin Ln., Lugu Township, Nantou County 558, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9549,8 +9930,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市和平區審馬陣山指標16.2K處(審馬陣山岔路附近)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9574,8 +9956,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市和平區南湖大山指標20K處附近(南湖主峰東峰岔路附近)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9599,8 +9982,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉小奇萊山指標1.4K處(小奇萊山頂附近)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -9624,8 +10008,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '南投縣仁愛鄉奇萊稜線指標6.4K處(奇萊山屋附近)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9649,8 +10034,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉多加屯山指標8.4K處(多加屯避難山屋附近)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9674,8 +10060,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣礁溪鄉二結村一鄰9-1號(國立宜蘭大學實驗林場)',
-	eAddr: 'No. 9-1, 1st Neighborhood, Erjie Vil., Jiaoxi Township, Yilan County 26291, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 9-1, 1st Neighborhood, Erjie Vil., Jiaoxi Township, Yilan County 26291, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9699,8 +10086,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣三星鄉月眉街54號(三星國中)',
-	eAddr: 'No. 54, Yuemei St., Sanxing Township, Yilan County 26641, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 54, Yuemei St., Sanxing Township, Yilan County 26641, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9724,8 +10112,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣員山鄉內城路545號(內城國中小)',
-	eAddr: 'No. 545, Neicheng Rd., Yuanshan Township, Yilan County 26444, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 545, Neicheng Rd., Yuanshan Township, Yilan County 26444, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9749,8 +10138,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣冬山鄉冬山路98-5號(冬山消防分隊)',
-	eAddr: 'No. 98-5, Dongshan Rd., Dongshan Township, Yilan County 26946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 98-5, Dongshan Rd., Dongshan Township, Yilan County 26946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9774,8 +10164,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮(頭城與坪林交界附近之國有林班地、坪林石牌附近山區)',
-	eAddr: 'Near the border with Pinglin Dist., Toucheng Township, Yilan County 261, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near the border with Pinglin Dist., Toucheng Township, Yilan County 261, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9799,8 +10190,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣羅東鎮羅東運動公園南側(北成路二段停車場旁自行車道入口)',
-	eAddr: 'Luodong Sports Park (Sec. 2, Beicheng Rd.), Luodong Township, Yilan County 265, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Luodong Sports Park (Sec. 2, Beicheng Rd.), Luodong Township, Yilan County 265, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9824,8 +10216,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮(鶯子嶺通信站區內)',
-	eAddr: 'Yingziling, Toucheng Township, Yilan County 261, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Yingziling, Toucheng Township, Yilan County 261, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9849,8 +10242,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉(太平山翠峰湖停車場木棧道旁)',
-	eAddr: 'Cuifenghu Parking Lot, Taipingshan, Datong Township, Yilan County 267, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Cuifenghu Parking Lot, Taipingshan, Datong Township, Yilan County 267, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9874,8 +10268,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣壯圍鄉大福路一段62巷26號(大福國小)',
-	eAddr: 'No. 26, Ln. 62, Sec. 1, Dafu Rd., Zhuangwei Township, Yilan County 26341, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 26, Ln. 62, Sec. 1, Dafu Rd., Zhuangwei Township, Yilan County 26341, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9899,8 +10294,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣員山鄉員山村復興路39號(員山國小)',
-	eAddr: 'No. 39, Fuxing Rd., Yuanshan Vil., Yuanshan Township, Yilan County 26441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 39, Fuxing Rd., Yuanshan Vil., Yuanshan Township, Yilan County 26441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9924,8 +10320,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉(土場)',
-	eAddr: 'Tuchang, Datong Township, Yilan County 267, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Tuchang, Datong Township, Yilan County 267, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9949,8 +10346,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉100線林道15K(太平山32林班、鴛鴦湖工作站旁空地)',
-	eAddr: 'No. 100 Forest Rd. 15K, Datong Township, Yilan County 267, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 100 Forest Rd. 15K, Datong Township, Yilan County 267, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9974,8 +10372,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉克來寶段399號(和平工業港安檢所綠洲分隊)',
-	eAddr: 'Land No. 399, Kelaibao Sec., Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 399, Kelaibao Sec., Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -9999,8 +10398,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉臺電公司東部發電廠碧海機組廠區(入管制哨7K處)',
-	eAddr: 'Bihai Power Plant Area, Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Bihai Power Plant Area, Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -10024,8 +10424,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市大安區新生南路二段1號',
-	eAddr: 'No.1, Sec. 2, Xinsheng S. Rd., Da\'an Diist., Taipei City 106, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Sec. 2, Xinsheng S. Rd., Da\'an Diist., Taipei City 106, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -10049,8 +10450,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市烏來區福山植物園(生活植物區之民俗植物區觀測坪)',
-	eAddr: 'Fushan Botanical Garden, Wulai Dist., New Taipei City 233, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fushan Botanical Garden, Wulai Dist., New Taipei City 233, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10074,8 +10476,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣南澳鄉安平坑林道(力霸產業道路)附近山區(南澳事業區28林班)',
-	eAddr: 'No. 28 Forest Compartment, Nan’ao Forest Dist., Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28 Forest Compartment, Nan’ao Forest Dist., Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10099,8 +10502,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣南澳鄉台泥大白山運石道附近山區(羅東事業區96林班)',
-	eAddr: 'No. 96 Forest Compartment, Luodong Forest Dist., Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 96 Forest Compartment, Luodong Forest Dist., Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10124,8 +10528,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣南澳鄉武塔村樟樹山附近山區',
-	eAddr: 'Near Zhangshushan, Wuta Vil., Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Zhangshushan, Wuta Vil., Nan’ao Township, Yilan County 272, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10149,8 +10554,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮及新北市貢寮區交界之桃源谷附近空地',
-	eAddr: 'Taoyuangu, Toucheng Township, Yilan County 261, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Taoyuangu, Toucheng Township, Yilan County 261, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10174,8 +10580,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉臺9線大清水遊憩區下方空地',
-	eAddr: 'Daqingshui Recreation Area, Xiulin Township, Hualien County 972, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Daqingshui Recreation Area, Xiulin Township, Hualien County 972, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10199,8 +10606,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣卓溪鄉清水林道北側山區(新生段1地號)',
-	eAddr: 'Land No. 1, Xinsheng Sec., Zhuoxi Township, Hualien County 982, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Land No. 1, Xinsheng Sec., Zhuoxi Township, Hualien County 982, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10224,8 +10632,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣玉里鎮安通產業道路附近山區',
-	eAddr: 'Antong Industrial Rd., Yuli Township, Hualien County 981, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Antong Industrial Rd., Yuli Township, Hualien County 981, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10249,8 +10658,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮協天路468號(中華電信頭城海纜站)',
-	eAddr: 'No. 468, Xietian Rd., Toucheng Township, Yilan County 26143, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 468, Xietian Rd., Toucheng Township, Yilan County 26143, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10274,8 +10684,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣大埔鄉溪頭段1地號',
-	eAddr: 'Land No.1,Shitou Sec.,Dapu Township,Chiayi County 607,Taiwan(R.O.C)'
-  },
+	eAddr: 'Land No.1,Shitou Sec.,Dapu Township,Chiayi County 607,Taiwan(R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10299,8 +10710,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣大同鄉南山村4鄰埤南巷31-3號(南山國小)',
-	eAddr: 'No. 31-3, Pinan Ln., 4th Neighborhood, Nanshan Vil., Datong Township, Yilan County 26745, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 31-3, Pinan Ln., 4th Neighborhood, Nanshan Vil., Datong Township, Yilan County 26745, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -10324,8 +10736,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市五股區外寮路12號',
-	eAddr: 'No.12, Wailiao Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.12, Wailiao Rd., Wugu Dist., New Taipei City 248, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -10349,8 +10762,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣東港鎮豐漁里豐漁街67號(水產試驗所東港生技研究中心)',
-	eAddr: 'No. 66, Fengyu St., Donggang Township, Pingtung County 92845, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 66, Fengyu St., Donggang Township, Pingtung County 92845, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -10374,8 +10788,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣竹田鄉中正路123號(竹田鄉公所清潔隊)',
-	eAddr: 'No. 123, Zhongzheng Rd., Zhutian Township, Pingtung County 91144, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 123, Zhongzheng Rd., Zhutian Township, Pingtung County 91144, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10399,8 +10814,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣竹山鎮大公街100號',
-	eAddr: 'No.100, Dagong St., Zhushan Township, Nantou County 557, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.100, Dagong St., Zhushan Township, Nantou County 557, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10424,8 +10840,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣蘭嶼鄉椰油段1-7地號(蘭嶼燈塔旁)',
-	eAddr: 'No.1-7, Yeyou, Lanyu Township, Taitung County 95241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1-7, Yeyou, Lanyu Township, Taitung County 95241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10449,8 +10866,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣魚池鄉共和村五馬巷11-1號',
-	eAddr: 'No.11-1, Wuma Ln., Gunghe Vil., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.11-1, Wuma Ln., Gunghe Vil., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10474,8 +10892,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣鹿草鄉豐稠村農改場1號',
-	eAddr: 'No.1, Lucao Farm, Fengchou Vil., Lucao Township, Chiayi County 611, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Lucao Farm, Fengchou Vil., Lucao Township, Chiayi County 611, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -10499,8 +10918,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市七股區十份里海埔48號',
-	eAddr: 'No.48, Haipu, Qigu Dist., Tainan City 724, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.48, Haipu, Qigu Dist., Tainan City 724, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10524,8 +10944,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣四湖鄉中華路62巷80號',
-	eAddr: 'No.80, Ln. 62, Zhonghua Rd., Sihu Township, Yunlin County 654, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.80, Ln. 62, Zhonghua Rd., Sihu Township, Yunlin County 654, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -10549,8 +10970,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市新店區屈尺路83號(衛福部北區老人之家)',
-	eAddr: 'No.83, Quchi Rd., Xindian Dist., New Taipei City 231, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.83, Quchi Rd., Xindian Dist., New Taipei City 231, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -10574,8 +10996,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市石門區德茂里下員坑33-6號(白沙灣遊客中心樓頂)',
-	eAddr: 'No.33-6, Xiayuankeng, Shimen Dist., New Taipei City 253, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.33-6, Xiayuankeng, Shimen Dist., New Taipei City 253, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -10599,8 +11022,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '高雄市甲仙區五里路24-2號(小林國小)',
-	eAddr: 'No.24-2, Wuli Rd., Jiaxian Dist., Kaohsiung City 847, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.24-2, Wuli Rd., Jiaxian Dist., Kaohsiung City 847, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10624,8 +11048,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉中央路271號',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10649,8 +11074,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '花蓮縣秀林鄉五權路22號',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -10674,8 +11100,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市大溪區信義路1165號(永福國小)',
-	eAddr: 'No.1165, Xinyi Rd., Daxi Dist., Taoyuan City 335, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1165, Xinyi Rd., Daxi Dist., Taoyuan City 335, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10699,8 +11126,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣魚池鄉五城村華龍巷43號',
-	eAddr: 'No.43, Hualong Ln., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.43, Hualong Ln., Yuchi Township, Nantou County 555, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10724,8 +11152,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市霧峰區萬豐里中正路189號',
-	eAddr: 'No.189, Zhongzheng Rd., Wufeng Dist., Taichung City 413, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.189, Zhongzheng Rd., Wufeng Dist., Taichung City 413, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10749,8 +11178,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣溪口鄉妙崙村下崙路1之20號(靠近柳溝國小)',
-	eAddr: 'No.1-20, Xialun, Xikou Township, Chiayi County 623, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1-20, Xialun, Xikou Township, Chiayi County 623, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -10774,8 +11204,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣田中鎮中潭里4鄰高鐵三路1段167號',
-	eAddr: 'No. 167, Sec. 1, Gaotie 3Rd Rd., Tianzhong Township, Changhua County 520, Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 167, Sec. 1, Gaotie 3Rd Rd., Tianzhong Township, Changhua County 520, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10799,8 +11230,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣金峰鄉嘉蘭村12鄰665號(金峰鄉嘉蘭村活動中心)',
-	eAddr: 'No. 665, 12nd Neighborhood, Jialan Vil., Jinfeng Township, Taitung County 964, Taiwan'
-  },
+	eAddr: 'No. 665, 12nd Neighborhood, Jialan Vil., Jinfeng Township, Taitung County 964, Taiwan',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10824,8 +11256,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣延平鄉昇平路75號(延平消防分隊)',
-	eAddr: 'No. 75, Shengping Rd., Yanping Township, Taitung County 953, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 75, Shengping Rd., Yanping Township, Taitung County 953, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10849,8 +11282,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣長濱鄉石寧山附近山區',
-	eAddr: 'Nearby Shiningshan Mountain Area, Ningpu Vil., Changbin Township, Taitung County 962, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nearby Shiningshan Mountain Area, Ningpu Vil., Changbin Township, Taitung County 962, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10874,8 +11308,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣太麻里鄉香蘭村四鄰28號',
-	eAddr: 'No.28, Xianglan Vil., Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.28, Xianglan Vil., Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10899,8 +11334,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣大武鄉大竹村14鄰加津林4號(舊高溪派出所)',
-	eAddr: 'No. 4, Jiajinlin, 14nd Neighborhood, Dazhu Vil., Dawu Township, Taitung County 965, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 4, Jiajinlin, 14nd Neighborhood, Dazhu Vil., Dawu Township, Taitung County 965, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10924,8 +11360,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣達仁鄉勝林山山頂停機坪旁(與大武鄉交界附近)',
-	eAddr: 'The Top Of Shenglinshan Mountain, Daren Township, Taitung County 966, Taiwan (R.O.C.)'
-  },
+	eAddr: 'The Top Of Shenglinshan Mountain, Daren Township, Taitung County 966, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10949,8 +11386,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣大武鄉南興村山豬窟產業道路附近山區(梅園涼亭旁)',
-	eAddr: 'Shanzhuku Industrial Road, Nanxing Vil., Dawu Township, Taitung County 965, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Shanzhuku Industrial Road, Nanxing Vil., Dawu Township, Taitung County 965, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10974,8 +11412,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣太麻里鄉歷坵產業道路附近山區',
-	eAddr: 'Liqiu Industrial Road, Jinfeng Township, Taitung County 964, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Liqiu Industrial Road, Jinfeng Township, Taitung County 964, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -10999,8 +11438,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣太麻里鄉富山產業道路附近山區(與金峰鄉交界附近)',
-	eAddr: 'Fushan Industrial Road, Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fushan Industrial Road, Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11024,8 +11464,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣成功鎮新村路25號(東部海岸國家風景區管理處)',
-	eAddr: 'No. 25, Xincun Rd., Chenggong Township, Taitung County 961, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 25, Xincun Rd., Chenggong Township, Taitung County 961, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11049,8 +11490,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣鹿野鄉瑞和村瑞景路3段1號(瑞源國中)',
-	eAddr: 'No. 1, Sec. 3, Ruijing Rd., Ruihe Vil., Luye Township, Taitung County 955, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Sec. 3, Ruijing Rd., Ruihe Vil., Luye Township, Taitung County 955, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11074,8 +11516,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣卑南鄉檳榔四格山山頂瞭望臺旁',
-	eAddr: 'The Top Of Binlangsigeshan Mountain, Beinan Township, Taitung County 954, Taiwan (R.O.C.)'
-  },
+	eAddr: 'The Top Of Binlangsigeshan Mountain, Beinan Township, Taitung County 954, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11099,8 +11542,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣臺東市知本路2段291巷299號',
-	eAddr: 'No.299, Ln. 291, Sec. 2, Zhiben Rd., Taitung City, Taitung County 950, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.299, Ln. 291, Sec. 2, Zhiben Rd., Taitung City, Taitung County 950, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11124,8 +11568,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣達仁鄉土坂村1鄰10號(土坂國小)',
-	eAddr: 'No. 10, 1st Neighborhood, Tuban Vil.,  Daren Township, Taitung County 96692, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 10, 1st Neighborhood, Tuban Vil.,  Daren Township, Taitung County 96692, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11149,8 +11594,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '花蓮縣富里鄉永安街52號(富里國小)',
-	eAddr: ''
-  },
+	eAddr: '',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -11174,8 +11620,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市三重區環河南路100號',
-	eAddr: 'No. 100, Huanhe S. Rd., Sanchong Dist., New Taipei City 241, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 100, Huanhe S. Rd., Sanchong Dist., New Taipei City 241, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -11199,8 +11646,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣二崙鄉大庄村酒姑路1號',
-	eAddr: 'No. 1, Jiugu Rd., Erlun Township, Yunlin County 649, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Jiugu Rd., Erlun Township, Yunlin County 649, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -11224,8 +11672,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣麥寮鄉山寮段271,272號',
-	eAddr: 'No. 271 & 272, Shanliao, Mailiao Township, Yunlin County 638, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 271 & 272, Shanliao, Mailiao Township, Yunlin County 638, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11249,8 +11698,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣枋寮鄉',
-	eAddr: 'No. 197, Dexing Rd., Fangliao Vil., Fangliao Township, Pingtung County 94043, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 197, Dexing Rd., Fangliao Vil., Fangliao Township, Pingtung County 94043, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11274,8 +11724,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣枋山鄉',
-	eAddr: 'No. 24, Guangfu Rd., Shanyu Vil., Fangshan Township, Pingtung County 94151, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 24, Guangfu Rd., Shanyu Vil., Fangshan Township, Pingtung County 94151, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11299,8 +11750,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣滿州鄉(佳樂水風景區)',
-	eAddr: 'Jialeshui Scenic Area ,Manzhou Township, Pingtung County 94743, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Jialeshui Scenic Area ,Manzhou Township, Pingtung County 94743, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11324,8 +11776,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣恆春鎮(墾丁森林遊樂區林業試驗所觀測坪)',
-	eAddr: 'No. 203, Gongyuan Rd., Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 203, Gongyuan Rd., Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11349,8 +11802,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣枋山鄉',
-	eAddr: 'No. 52, Sec. 3, Zhongshan Rd., Fangshan Township, Pingtung County 94151, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 52, Sec. 3, Zhongshan Rd., Fangshan Township, Pingtung County 94151, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -11374,8 +11828,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市北投區石牌路一段139號(石牌國中)',
-	eAddr: 'No. 139, Sec. 1, Shipai Rd., Beitou Dist., Taipei City 11271, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 139, Sec. 1, Shipai Rd., Beitou Dist., Taipei City 11271, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11399,8 +11854,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣牡丹鄉(旭海大草原步道旁)',
-	eAddr: 'Next To The XuhaiTrail, Mudan Township, Pingtung County 945, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Next To The XuhaiTrail, Mudan Township, Pingtung County 945, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -11424,8 +11880,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣線西鄉慶福路300號(彰濱工業區線西服務大樓)',
-	eAddr: 'No.100, Qing Fu Rd., Xianxi Township., Changhua County 507, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.100, Qing Fu Rd., Xianxi Township., Changhua County 507, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11449,8 +11906,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣車城鄉福興村中山路66號(車城國小)',
-	eAddr: 'No. 66, Zhongshan Rd., Fuxing Vil., Checheng Township, Pingtung County 94441, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 66, Zhongshan Rd., Fuxing Vil., Checheng Township, Pingtung County 94441, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11474,8 +11932,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣牡丹鄉199縣道23K-23.5K(恆春事業區25林班)',
-	eAddr: 'No. 25 Forest Compartment, Hengchun Forest Dist.'
-  },
+	eAddr: 'No. 25 Forest Compartment, Hengchun Forest Dist.',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11499,8 +11958,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣春日鄉(大漢山頂)',
-	eAddr: 'Dahanshan, Chunri Township, Pingtung County 942, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dahanshan, Chunri Township, Pingtung County 942, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -11524,8 +11984,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市樹林區佳園路三段253號',
-	eAddr: 'No. 253, Sec. 3, Jiayuan Rd., Shulin Dist., New Taipei City 238, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 253, Sec. 3, Jiayuan Rd., Shulin Dist., New Taipei City 238, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -11549,8 +12010,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣臺西鄉中央路271號',
-	eAddr: 'No. 271, Zhongyang Rd., Taixi Township, Yunlin County 636, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 271, Zhongyang Rd., Taixi Township, Yunlin County 636, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -11574,8 +12036,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣虎尾鎮學府西路8號(臺大雲林分部鋤禾館)',
-	eAddr: 'No. 8, Xuefu W. Rd., Huwei Township, Yunlin County 632, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 8, Xuefu W. Rd., Huwei Township, Yunlin County 632, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11599,8 +12062,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市後壁區13鄰烏樹里325號',
-	eAddr: 'No. 325, Wushulin, Houbi Dist., Tainan City 731, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 325, Wushulin, Houbi Dist., Tainan City 731, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11624,8 +12088,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '宜蘭縣五結鄉季水路28之1號',
-	eAddr: 'No. 28-1, Jishui Rd., Wujie Township, Yilan County 268, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28-1, Jishui Rd., Wujie Township, Yilan County 268, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11649,8 +12114,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣太麻里鄉太麻里街575號旁小路',
-	eAddr: 'No. 575, Tavualje St., Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 575, Tavualje St., Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -11674,8 +12140,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣花壇鄉彰員路2段580號(花壇國中)',
-	eAddr: 'No. 580, Sec. 2, Zhangyuan Rd., Huatan Township, Changhua County 503, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 580, Sec. 2, Zhangyuan Rd., Huatan Township, Changhua County 503, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11699,8 +12166,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣恆春鎮恆春助航臺(NDB歸航臺)',
-	eAddr: 'Longpan Grassland, Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Longpan Grassland, Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11724,8 +12192,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣恆春鎮大坪頂電信機房旁',
-	eAddr: 'Dapingding, Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dapingding, Hengchun Township, Pingtung County 946, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11749,8 +12218,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣獅子鄉（獅子鄉圖書館）',
-	eAddr: 'No. 28,  Fenglin 4nd Ln., Shizi Township, Pingtung County 943, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28,  Fenglin 4nd Ln., Shizi Township, Pingtung County 943, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11774,8 +12244,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣牡丹鄉四林格山遊樂區第2涼亭旁大草原',
-	eAddr: 'Sihlingeshan Recreation Area, Mudan Township, Pingtung County 945, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Sihlingeshan Recreation Area, Mudan Township, Pingtung County 945, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11799,8 +12270,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣滿州鄉南仁湖步道4K處山頂觀測站旁',
-	eAddr: 'Nanrenhu Trail 4KM,  Manzhou Township, Pingtung County 947, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nanrenhu Trail 4KM,  Manzhou Township, Pingtung County 947, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11824,8 +12296,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣車城鄉保力村竹社路5號(保力林場)',
-	eAddr: 'No.5, Zhushe Rd., Checheng Township, Pingtung County 944, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.5, Zhushe Rd., Checheng Township, Pingtung County 944, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11849,8 +12322,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣滿州鄉文化路32號(滿州國中)',
-	eAddr: 'No.32, Wenhua Rd., Chaozhou Township, Pingtung County 920, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.32, Wenhua Rd., Chaozhou Township, Pingtung County 920, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11874,8 +12348,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣滿州鄉九棚中科院基地',
-	eAddr: 'Jiupeng, Manzhou Township, Pingtung County 945, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Jiupeng, Manzhou Township, Pingtung County 945, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11899,8 +12374,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣獅子鄉丹路一巷39號(丹路國小)',
-	eAddr: 'No.1, Danlu 1st Ln., Shizi Township, Pingtung County 943, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Danlu 1st Ln., Shizi Township, Pingtung County 943, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11924,8 +12400,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣獅子鄉內獅村1號(內獅國小)',
-	eAddr: 'No.1, Shizi Township, Pingtung County 943, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Shizi Township, Pingtung County 943, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11949,8 +12426,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣來義鄉舊白鷺部落聯絡道5.5公里處',
-	eAddr: 'Bailu Industrial Rd. 5.5KM, Laiyi Township, Pingtung County 922, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Bailu Industrial Rd. 5.5KM, Laiyi Township, Pingtung County 922, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -11974,8 +12452,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣牡丹鄉高士社區進水廠水塔頂',
-	eAddr: 'Gaoshi Vil., Mudan Township, Pingtung County 945, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Gaoshi Vil., Mudan Township, Pingtung County 945, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -11999,8 +12478,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺東縣達仁鄉東達五號農路4K處',
-	eAddr: 'Dongda Industrial Rd. 4KM, Daren Township, Taitung County 966, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dongda Industrial Rd. 4KM, Daren Township, Taitung County 966, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12024,8 +12504,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市八德區魚池街',
-	eAddr: 'Yuchi St., Bade Dist., Taoyuan City 334, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Yuchi St., Bade Dist., Taoyuan City 334, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12049,8 +12530,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市八德區茄苳路197號',
-	eAddr: 'No. 197, Jiadong Rd., Bade Dist., Taoyuan City 334, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 197, Jiadong Rd., Bade Dist., Taoyuan City 334, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -12074,8 +12556,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣牡丹鄉牡丹池山山頂',
-	eAddr: 'Hilltop of Mt. Mudanchisahn, Mudan Township, Pingtung County 945, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Hilltop of Mt. Mudanchisahn, Mudan Township, Pingtung County 945, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -12099,8 +12582,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺南市柳營區國道3號北上324.7K處',
-	eAddr: '327.4k, Highway No.3, Liuying Dist., Tainan City 736, Taiwan (R.O.C.)'
-  },
+	eAddr: '327.4k, Highway No.3, Liuying Dist., Tainan City 736, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12124,8 +12608,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣竹山鎮前山路一段12號',
-	eAddr: 'No.12, Sec. 1, Qianshan Rd., Zhushan Township, Nantou County 557, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.12, Sec. 1, Qianshan Rd., Zhushan Township, Nantou County 557, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12149,8 +12634,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣口湖鄉口湖村成功路180號',
-	eAddr: 'No.180, Chenggong Rd., Kouhu Township, Yunlin County 653, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.180, Chenggong Rd., Kouhu Township, Yunlin County 653, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -12174,8 +12660,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣東港鎮興東里興東路65-18號',
-	eAddr: 'No.65-18, Xingdong Rd., Donggang Township, Pingtung County 928, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.65-18, Xingdong Rd., Donggang Township, Pingtung County 928, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -12199,8 +12686,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣車城鄉田中村中山路166號',
-	eAddr: 'No.166, Zhongshan Rd., Checheng Township, Pingtung County 944, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.166, Zhongshan Rd., Checheng Township, Pingtung County 944, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12224,8 +12712,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉親愛村大安路1號',
-	eAddr: 'No.1, Da’an Rd., Ren’ai Township, Nantou County 546, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Da’an Rd., Ren’ai Township, Nantou County 546, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12249,8 +12738,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '嘉義縣阿里山鄉新美村(新美國小)',
-	eAddr: 'No.78, Shinmei Vil., Alishan Township, Chiayi County 605, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.78, Shinmei Vil., Alishan Township, Chiayi County 605, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12274,8 +12764,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣寶山鄉國道1號南向105.695K',
-	eAddr: 'Freeway No. 1 - S105.695K'
-  },
+	eAddr: 'Freeway No. 1 - S105.695K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12299,8 +12790,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣頭屋鄉國道1號南向123.56K',
-	eAddr: 'Freeway No. 1 - S123.56K'
-  },
+	eAddr: 'Freeway No. 1 - S123.56K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12324,8 +12816,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣公館鄉國道1號南向132.75K',
-	eAddr: 'Freeway No. 1 - S132.75K'
-  },
+	eAddr: 'Freeway No. 1 - S132.75K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12349,8 +12842,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣三義鄉國道1號南向152.265K',
-	eAddr: 'Freeway No. 1 - S152.265K'
-  },
+	eAddr: 'Freeway No. 1 - S152.265K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12374,8 +12868,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣竹南鎮國道3號北向119.203K',
-	eAddr: 'Freeway No. 3 - N119.203K'
-  },
+	eAddr: 'Freeway No. 3 - N119.203K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12399,8 +12894,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣苑裡鎮國道3號北向151.71K',
-	eAddr: 'Freeway No. 3 - N151.71K'
-  },
+	eAddr: 'Freeway No. 3 - N151.71K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12424,8 +12920,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣通霄鎮國道3號南向140.835K',
-	eAddr: 'Freeway No. 3 - S140.835K'
-  },
+	eAddr: 'Freeway No. 3 - S140.835K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -12449,8 +12946,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣苑裡鎮國道3號南向156.651K',
-	eAddr: 'Freeway No. 3 - S156.651K'
-  },
+	eAddr: 'Freeway No. 3 - S156.651K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12474,8 +12972,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市西屯區國道1號北向174.4K',
-	eAddr: 'Freeway No. 1 - N174.4K'
-  },
+	eAddr: 'Freeway No. 1 - N174.4K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12499,8 +12998,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市后里區國道1號南向162.75K',
-	eAddr: 'Freeway No. 1 - S162.75K'
-  },
+	eAddr: 'Freeway No. 1 - S162.75K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12524,8 +13024,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市神岡區國道1號南向169.27K',
-	eAddr: 'Freeway No. 1 - S169.27K'
-  },
+	eAddr: 'Freeway No. 1 - S169.27K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12549,8 +13050,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市大肚區國道1號南向188.7K',
-	eAddr: 'Freeway No. 1 - S188.7K'
-  },
+	eAddr: 'Freeway No. 1 - S188.7K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12574,8 +13076,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市霧峰區國道3號北向208.904K',
-	eAddr: 'Freeway No. 3 - N208.904K'
-  },
+	eAddr: 'Freeway No. 3 - N208.904K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12599,8 +13102,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市清水區國道3號南向168.81K',
-	eAddr: 'Freeway No. 3 - S168.81K'
-  },
+	eAddr: 'Freeway No. 3 - S168.81K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12624,8 +13128,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市神岡區國道4號東向5.62K',
-	eAddr: 'Freeway No. 4 - E5.62K'
-  },
+	eAddr: 'Freeway No. 4 - E5.62K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12649,8 +13154,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣彰化市國道1號北向198.54K',
-	eAddr: 'Freeway No. 1 - N198.54K'
-  },
+	eAddr: 'Freeway No. 1 - N198.54K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12674,8 +13180,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣大村鄉國道1號南向207k',
-	eAddr: 'Freeway No. 1 - S207K'
-  },
+	eAddr: 'Freeway No. 1 - S207K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12699,8 +13206,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣和美鎮國道3號北向191.732K',
-	eAddr: 'Freeway No. 3 - N191.732K'
-  },
+	eAddr: 'Freeway No. 3 - N191.732K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12724,8 +13232,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣彰化市國道3號北向196.756K',
-	eAddr: 'Freeway No. 3 - N196.756K'
-  },
+	eAddr: 'Freeway No. 3 - N196.756K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12749,8 +13258,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣彰化市國道3號南向202.015K',
-	eAddr: 'Freeway No. 3 - S202.015K'
-  },
+	eAddr: 'Freeway No. 3 - S202.015K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12774,8 +13284,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣草屯鎮國道3號北向223.7K',
-	eAddr: 'Freeway No. 3 - N223.7K'
-  },
+	eAddr: 'Freeway No. 3 - N223.7K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12799,8 +13310,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣草屯鎮國道3號南向217.091K',
-	eAddr: 'Freeway No. 3 - S217.091K'
-  },
+	eAddr: 'Freeway No. 3 - S217.091K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12824,8 +13336,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣林內鄉國道3號北向252.05K',
-	eAddr: 'Freeway No. 3 - N252.05K'
-  },
+	eAddr: 'Freeway No. 3 - N252.05K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12849,8 +13362,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣西螺鎮國道1號北向234.5K',
-	eAddr: 'Freeway No. 1 - N234.5K'
-  },
+	eAddr: 'Freeway No. 1 - N234.5K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12874,8 +13388,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣大林鎮國道1號北向250.5K',
-	eAddr: 'Freeway No. 1 - N250.5K'
-  },
+	eAddr: 'Freeway No. 1 - N250.5K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12899,8 +13414,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉台8線公路102KM+200公尺(102.3K左右的畢綠溪入口)',
-	eAddr: '102KM+200M of Provincial Highway 8'
-  },
+	eAddr: '102KM+200M of Provincial Highway 8',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -12924,8 +13440,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市六龜區中興里中庄198號',
-	eAddr: 'No. 198, Zhongzhuang, Liugui Dist., Kaohsiung City 844, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 198, Zhongzhuang, Liugui Dist., Kaohsiung City 844, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -12949,8 +13466,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市茂林區茂林巷125號',
-	eAddr: 'No. 25, Maolin Ln., Maolin Dist., Kaohsiung City 851, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 25, Maolin Ln., Maolin Dist., Kaohsiung City 851, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -12974,8 +13492,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺東縣太麻里鄉大王村19鄰橋頭6號',
-	eAddr: 'No. 6, Qiaotou, Taimali Township, Taitung County 963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 6, Qiaotou, Taimali Township, Taitung County 963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -12999,8 +13518,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣信義鄉同富村同和巷47號',
-	eAddr: 'No.47, Tonghe Ln., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.47, Tonghe Ln., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13024,8 +13544,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣信義鄉自強村綠美巷13號',
-	eAddr: 'No.13, Lumei Ln., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.13, Lumei Ln., Xinyi Township, Nantou County 556, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13049,8 +13570,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣新埔鎮義民路一段286巷133弄25號',
-	eAddr: 'No. 25, Aly. 133, Ln. 286, Sec. 1, Yimin Rd., Xinpu Township, Hsinchu County 305, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 25, Aly. 133, Ln. 286, Sec. 1, Yimin Rd., Xinpu Township, Hsinchu County 305, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13074,8 +13596,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市八里區觀音山硬漢嶺前奉茶基地上方平台',
-	eAddr: 'Yinghanling, Guanyin Mountain'
-  },
+	eAddr: 'Yinghanling, Guanyin Mountain',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13099,8 +13622,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市北投區承德路七段401巷551號旁農地',
-	eAddr: 'No. 51, Ln. 401, Sec. 7, Chengde Rd., Beitou Dist., Taipei City 112, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 51, Ln. 401, Sec. 7, Chengde Rd., Beitou Dist., Taipei City 112, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -13124,8 +13648,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣礁溪鄉林尾路180號',
-	eAddr: 'No. 180, Linwei Rd., Jiaoxi Township, Yilan County 262308, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 180, Linwei Rd., Jiaoxi Township, Yilan County 262308, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13149,8 +13674,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市三重區國道1號南向26.9K',
-	eAddr: 'Freeway No. 1 – S26.9K'
-  },
+	eAddr: 'Freeway No. 1 – S26.9K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13174,8 +13700,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市汐止區國道3號南向10.03k',
-	eAddr: 'Freeway No. 3 – S10.03K'
-  },
+	eAddr: 'Freeway No. 3 – S10.03K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13199,8 +13726,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市南港區國道3號南向16.5K',
-	eAddr: 'Freeway No. 3 – S16.5K'
-  },
+	eAddr: 'Freeway No. 3 – S16.5K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13224,8 +13752,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市土城區國道3號南向37.55K',
-	eAddr: 'Freeway No. 3 – S37.55K'
-  },
+	eAddr: 'Freeway No. 3 – S37.55K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13249,8 +13778,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市土城區國道3號南向42.6K',
-	eAddr: 'Freeway No. 3 – S42.6K'
-  },
+	eAddr: 'Freeway No. 3 – S42.6K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13274,8 +13804,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市樹林區國道3號北向46.45K',
-	eAddr: 'Freeway No. 3 – N46.45K'
-  },
+	eAddr: 'Freeway No. 3 – N46.45K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13299,8 +13830,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市鶯歌區國道3號南向54.4K',
-	eAddr: 'Freeway No. 3 – S54.4K'
-  },
+	eAddr: 'Freeway No. 3 – S54.4K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13324,8 +13856,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺北市文山區國道3號甲西向5.35K',
-	eAddr: 'Freeway No. 3A – W5.35K'
-  },
+	eAddr: 'Freeway No. 3A – W5.35K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13349,8 +13882,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市安樂區國道1號南向1K',
-	eAddr: 'Freeway No. 1 – N1K'
-  },
+	eAddr: 'Freeway No. 1 – N1K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13374,8 +13908,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市七堵區國道1號南向6.85K',
-	eAddr: 'Freeway No. 1 – S6.85K'
-  },
+	eAddr: 'Freeway No. 1 – S6.85K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13399,8 +13934,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市七堵區國道3號南向4.11K',
-	eAddr: 'Freeway No. 3 – S4.11K'
-  },
+	eAddr: 'Freeway No. 3 – S4.11K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13424,8 +13960,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市七堵區國道3號南向7.12K',
-	eAddr: 'Freeway No. 3 – S7.12K'
-  },
+	eAddr: 'Freeway No. 3 – S7.12K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13449,8 +13986,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '基隆市中山區國道3號北向2.52K',
-	eAddr: 'Freeway No. 3K – N2.52K'
-  },
+	eAddr: 'Freeway No. 3K – N2.52K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13474,8 +14012,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市楊梅區國道1號南向72.68K',
-	eAddr: 'Freeway No. 1 – S72.68K'
-  },
+	eAddr: 'Freeway No. 1 – S72.68K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13499,8 +14038,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市桃園區國道2號東向9.18K',
-	eAddr: 'Freeway No. 2 – E9.18K'
-  },
+	eAddr: 'Freeway No. 2 – E9.18K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13524,8 +14064,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市大溪區國道3號北向63K',
-	eAddr: 'Freeway No. 3 – N63K'
-  },
+	eAddr: 'Freeway No. 3 – N63K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13549,8 +14090,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣湖口鄉國道1號北向77.53K',
-	eAddr: 'Freeway No. 1 – N77.53K'
-  },
+	eAddr: 'Freeway No. 1 – N77.53K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13574,8 +14116,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣湖口鄉國道1號南向82.02K',
-	eAddr: 'Freeway No. 1 – S82.02K'
-  },
+	eAddr: 'Freeway No. 1 – S82.02K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13599,8 +14142,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣竹北市國道1號南向88.59K',
-	eAddr: 'Freeway No. 1 – S88.59K'
-  },
+	eAddr: 'Freeway No. 1 – S88.59K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13624,8 +14168,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹市東區國道1號北向94.03K',
-	eAddr: 'Freeway No. 1 – N94.03K'
-  },
+	eAddr: 'Freeway No. 1 – N94.03K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13649,8 +14194,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣寶山鄉國道1號南向98.89K',
-	eAddr: 'Freeway No. 1 – S98.89K'
-  },
+	eAddr: 'Freeway No. 1 – S98.89K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13674,8 +14220,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣關西鎮國道3號北向85.63K',
-	eAddr: 'Freeway No. 3 – N85.63K'
-  },
+	eAddr: 'Freeway No. 3 – N85.63K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13699,8 +14246,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹市東區國道3號南向103.41K',
-	eAddr: 'Freeway No. 3 – S103.41K'
-  },
+	eAddr: 'Freeway No. 3 – S103.41K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -13724,8 +14272,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '新北市淡水區',
-	eAddr: 'Tamsui Dist., New Taipei City 251, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Tamsui Dist., New Taipei City 251, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13749,8 +14298,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市梧棲區臺灣大道十段2號6樓(海港大樓)',
-	eAddr: '6F., No.2, Sec. 10, Taiwan Blvd., Wuqi Dist., Taichung City 435, Taiwan (R.O.C.)'
-  },
+	eAddr: '6F., No.2, Sec. 10, Taiwan Blvd., Wuqi Dist., Taichung City 435, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13774,8 +14324,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣民雄鄉國道1號南向262.005K',
-	eAddr: 'Freeway No. 1 – S262.005K'
-  },
+	eAddr: 'Freeway No. 1 – S262.005K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13799,8 +14350,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣水上鄉國道1號北向268.41K',
-	eAddr: 'Freeway No. 1 – N268.41K'
-  },
+	eAddr: 'Freeway No. 1 – N268.41K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13824,8 +14376,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣水上鄉國道1號北向273.756K',
-	eAddr: 'Freeway No. 1 – N273.756K'
-  },
+	eAddr: 'Freeway No. 1 – N273.756K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13849,8 +14402,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣大林鎮國道3號北向279.255K',
-	eAddr: 'Freeway No. 3 – N279.255K'
-  },
+	eAddr: 'Freeway No. 3 – N279.255K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13874,8 +14428,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義市東區國道3號北向295.09K',
-	eAddr: 'Freeway No. 3 – N295.09K'
-  },
+	eAddr: 'Freeway No. 3 – N295.09K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -13899,8 +14454,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣中埔鄉國道3號北向303.07K',
-	eAddr: 'Freeway No. 3 – N303.07K'
-  },
+	eAddr: 'Freeway No. 3 – N303.07K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -13924,8 +14480,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市新營區國道1號北向288.3K',
-	eAddr: 'Freeway No. 1 – N288.3K'
-  },
+	eAddr: 'Freeway No. 1 – N288.3K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -13949,8 +14506,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市麻豆區國道1號南向306.987K',
-	eAddr: 'Freeway No. 1 – S306.987K'
-  },
+	eAddr: 'Freeway No. 1 – S306.987K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -13974,8 +14532,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市永康區國道1號北向323.009K',
-	eAddr: 'Freeway No. 1 – N323.009K'
-  },
+	eAddr: 'Freeway No. 1 – N323.009K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -13999,8 +14558,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市白河區國道3號南向311.774K',
-	eAddr: 'Freeway No. 3 – S311.774K'
-  },
+	eAddr: 'Freeway No. 3 – S311.774K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14024,8 +14584,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市官田區國道3號南向329.752K',
-	eAddr: 'Freeway No. 3 – S329.752K'
-  },
+	eAddr: 'Freeway No. 3 – S329.752K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14049,8 +14610,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市官田區國道3號北向336.319K',
-	eAddr: 'Freeway No. 3 – N336.319K'
-  },
+	eAddr: 'Freeway No. 3 – N336.319K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14074,8 +14636,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市善化區國道3號南向342.140K',
-	eAddr: 'Freeway No. 3 – S342.140K'
-  },
+	eAddr: 'Freeway No. 3 – S342.140K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14099,8 +14662,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市關廟區國道3號南向366.250K',
-	eAddr: 'Freeway No. 3 – S366.250K'
-  },
+	eAddr: 'Freeway No. 3 – S366.250K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14124,8 +14688,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市路竹區國道1號南向342.435K',
-	eAddr: 'Freeway No. 1 – S342.435K'
-  },
+	eAddr: 'Freeway No. 1 – S342.435K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14149,8 +14714,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市岡山區國道1號南向346.79K',
-	eAddr: 'Freeway No. 1 – S346.79K'
-  },
+	eAddr: 'Freeway No. 1 – S346.79K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14174,8 +14740,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市橋頭區國道1號北向351.99K',
-	eAddr: 'Freeway No. 1 – N351.99K'
-  },
+	eAddr: 'Freeway No. 1 – N351.99K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14199,8 +14766,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市仁武區國道1號北向361.65K',
-	eAddr: 'Freeway No. 1 – N361.65K'
-  },
+	eAddr: 'Freeway No. 1 – N361.65K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14224,8 +14792,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市大樹區國道3號南向385.803K',
-	eAddr: 'Freeway No. 3 – S385.803K'
-  },
+	eAddr: 'Freeway No. 3 – S385.803K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14249,8 +14818,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣南州鄉國道3號北向425.644K',
-	eAddr: 'Freeway No. 3 – N425.644K'
-  },
+	eAddr: 'Freeway No. 3 – N425.644K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14274,8 +14844,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣竹田鄉國道3號南向415.552K',
-	eAddr: 'Freeway No. 3 – S415.552K'
-  },
+	eAddr: 'Freeway No. 3 – S415.552K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14299,8 +14870,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣名間鄉竹圍巷46-7號',
-	eAddr: 'No. 46-7, Zhuwei Ln., Mingjian Township, Nantow County'
-  },
+	eAddr: 'No. 46-7, Zhuwei Ln., Mingjian Township, Nantow County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14324,8 +14896,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市石門區草埔尾5號(黃金海岸高爾夫球場)',
-	eAddr: 'No.5, Caopuwei, Shimen Dist., New Taipei City'
-  },
+	eAddr: 'No.5, Caopuwei, Shimen Dist., New Taipei City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14349,8 +14922,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市淡水區觀海路251號(淡水第2海巡隊樓頂)',
-	eAddr: 'No.251, Guanhai Rd., Tamsui Dist., New Taipei City'
-  },
+	eAddr: 'No.251, Guanhai Rd., Tamsui Dist., New Taipei City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14374,8 +14948,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市萬里區野柳里151-1號(野柳守望哨雷達塔)',
-	eAddr: 'Wanli Dist., New Taipei City'
-  },
+	eAddr: 'Wanli Dist., New Taipei City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14399,8 +14974,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣竹塘鄉東陽路二段123號(長安國小)',
-	eAddr: 'No. 123, Sec. 2, Dongyang Rd., Yong’an Vil., Zhutang Township, Changhua County 52553, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 123, Sec. 2, Dongyang Rd., Yong’an Vil., Zhutang Township, Changhua County 52553, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14424,8 +15000,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市復興區塔曼山登山口前大型水塔附近',
-	eAddr: 'Near the trailhead of Taman Mt.'
-  },
+	eAddr: 'Near the trailhead of Taman Mt.',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14449,8 +15026,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市中和區錦和路163號(錦和高中內)',
-	eAddr: 'No. 163, Jinhe Rd., Zhonghe Dist., New Taipei City 235041 , Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 163, Jinhe Rd., Zhonghe Dist., New Taipei City 235041 , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14474,8 +15052,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺北市士林區士商路189號（士林科教館樓頂）',
-	eAddr: 'No. 189,Shishang Rd.,Shilin Dist., Taipei City 111081 , Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 189,Shishang Rd.,Shilin Dist., Taipei City 111081 , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14499,8 +15078,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '彰化縣永靖鄉瑚璉路230號（永靖鄉公所樓頂）',
-	eAddr: 'No. 230,Hulian Rd.,Yongjing Township, Changhua County 512007 , Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 230,Hulian Rd.,Yongjing Township, Changhua County 512007 , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14524,8 +15104,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '桃園市蘆竹區西濱快道南向23K',
-	eAddr: 'Expressway N0. 61 - S023K'
-  },
+	eAddr: 'Expressway N0. 61 - S023K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14549,8 +15130,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '桃園市大園區西濱快道南向32.2K',
-	eAddr: 'Expressway N0. 61 - S32.2K'
-  },
+	eAddr: 'Expressway N0. 61 - S32.2K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14574,8 +15156,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '新竹縣新豐鄉西濱快道北向66.9K',
-	eAddr: 'Expressway N0. 61 - N066K'
-  },
+	eAddr: 'Expressway N0. 61 - N066K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14599,8 +15182,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '新竹市香山區西濱快道南向82.6K',
-	eAddr: 'Expressway N0. 61 - S82.6K'
-  },
+	eAddr: 'Expressway N0. 61 - S82.6K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14624,8 +15208,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '苗栗縣後龍鎮西濱快道北向107.93K',
-	eAddr: 'Expressway N0. 61 - N107.93K'
-  },
+	eAddr: 'Expressway N0. 61 - N107.93K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -14649,8 +15234,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '苗栗縣苑裡鎮西濱快道南向129.05K',
-	eAddr: 'Expressway N0. 61 - S129.05K'
-  },
+	eAddr: 'Expressway N0. 61 - S129.05K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14674,8 +15260,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '臺中市清水區西濱快道北向151K',
-	eAddr: 'Expressway N0. 61 - N151K'
-  },
+	eAddr: 'Expressway N0. 61 - N151K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14699,8 +15286,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣鹿港鎮西濱快道南向173.8K',
-	eAddr: 'Expressway N0. 61 - S173.8K'
-  },
+	eAddr: 'Expressway N0. 61 - S173.8K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14724,8 +15312,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣芳苑鄉西濱快道南向189.3K',
-	eAddr: 'Expressway N0. 61 - S189.3K'
-  },
+	eAddr: 'Expressway N0. 61 - S189.3K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14749,8 +15338,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣大城鄉西濱快道北向210.3K',
-	eAddr: 'Expressway N0. 61 - N210.3K'
-  },
+	eAddr: 'Expressway N0. 61 - N210.3K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14774,8 +15364,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣麥寮鄉西濱快道北向222.8K',
-	eAddr: 'Expressway N0. 61 - N222.8K'
-  },
+	eAddr: 'Expressway N0. 61 - N222.8K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14799,8 +15390,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣口湖鄉西濱快道南向241.210K',
-	eAddr: 'Expressway No. 61 - S241.210K'
-  },
+	eAddr: 'Expressway No. 61 - S241.210K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14824,8 +15416,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣東石鄉西濱快道南向257.495K',
-	eAddr: 'Expressway N0. 61 - S257.495K'
-  },
+	eAddr: 'Expressway N0. 61 - S257.495K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14849,8 +15442,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每10分鐘',
 	eD_Hour: 'every 10 minutes in 00-24h',
 	Addr: '嘉義縣東石鄉西濱快道南向267.170K',
-	eAddr: 'Expressway No. 61 - S267.170K'
-  },
+	eAddr: 'Expressway No. 61 - S267.170K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14874,8 +15468,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市北門區西濱快道南向280.05K',
-	eAddr: 'Expressway N0. 61 - S280.05K'
-  },
+	eAddr: 'Expressway N0. 61 - S280.05K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14899,8 +15494,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市七股區西濱快道北向304.18K',
-	eAddr: 'Expressway N0. 61 - N304.18K'
-  },
+	eAddr: 'Expressway N0. 61 - N304.18K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14924,8 +15520,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣芳苑鄉漁港路900號',
-	eAddr: 'No. 900, Yugang Rd., Fangyuan Township, Changhua County'
-  },
+	eAddr: 'No. 900, Yugang Rd., Fangyuan Township, Changhua County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14949,8 +15546,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣口湖鄉新港綠化公園旁',
-	eAddr: '-'
-  },
+	eAddr: '-',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -14974,8 +15572,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣布袋鎮光復里六棟寮40號',
-	eAddr: 'No. 40, Liudongliao, Budai Township, Chiayi County'
-  },
+	eAddr: 'No. 40, Liudongliao, Budai Township, Chiayi County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -14999,8 +15598,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市七股區三股里海埔4號',
-	eAddr: 'No. 4, Haipu, Sangu, Qigu Dist., Tainan City'
-  },
+	eAddr: 'No. 4, Haipu, Sangu, Qigu Dist., Tainan City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15024,8 +15624,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市六甲區菁埔段1085號',
-	eAddr: 'No. 1085, Jingpu, Liujia Dist., Tainan City'
-  },
+	eAddr: 'No. 1085, Jingpu, Liujia Dist., Tainan City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15049,8 +15650,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣林邊鄉裕後路2號',
-	eAddr: 'No. 2, Yuhou Rd., Linbian Township, Pingtung County'
-  },
+	eAddr: 'No. 2, Yuhou Rd., Linbian Township, Pingtung County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15074,8 +15676,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市瑞芳區水湳洞段00197-000建號(水湳洞犬區隊)',
-	eAddr: 'Ruifang Dist., New Taipei City'
-  },
+	eAddr: 'Ruifang Dist., New Taipei City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15099,8 +15702,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '基隆市安樂區武聖街144弄50號(大武崙安檢所樓頂)',
-	eAddr: 'No. 186, Sec. 2, Huhai Rd., Anle Dist., Keelung City'
-  },
+	eAddr: 'No. 186, Sec. 2, Huhai Rd., Anle Dist., Keelung City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15124,8 +15728,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '基隆市中正區漁港1街9號(八斗子安檢所樓頂)',
-	eAddr: 'No.9, Yugang 1st St., Zhongzheng Dist., Keelung City'
-  },
+	eAddr: 'No.9, Yugang 1st St., Zhongzheng Dist., Keelung City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15149,8 +15754,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市大園區沙崙小號00719-000建號(竹圍第一機動巡邏隊樓頂)',
-	eAddr: 'No.58, Ln. 78, Sec. 1, Xibin Rd., Dayuan Dist., Taoyuan City'
-  },
+	eAddr: 'No.58, Ln. 78, Sec. 1, Xibin Rd., Dayuan Dist., Taoyuan City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15174,8 +15780,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市新屋區殼港段深圳小段52-41號土地(中央大學臨海工作站)',
-	eAddr: 'No.628, Sec. 1, Guanhai Rd., Xinwu Dist., Taoyuan City'
-  },
+	eAddr: 'No.628, Sec. 1, Guanhai Rd., Xinwu Dist., Taoyuan City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15199,8 +15806,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '桃園市觀音區經建七路5號(觀音工業區汙水處理廠迴流汙泥站機房樓頂)',
-	eAddr: 'No.5, Jingjian 7th Rd., Guanyin Dist., Taoyuan City'
-  },
+	eAddr: 'No.5, Jingjian 7th Rd., Guanyin Dist., Taoyuan City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15224,8 +15832,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹市北區海天一線看海公園',
-	eAddr: 'North Dist., Hsinchu City'
-  },
+	eAddr: 'North Dist., Hsinchu City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15249,8 +15858,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹市香山區西濱路三段500巷17號',
-	eAddr: 'No.17, Ln. 500, Sec. 3, Xibin Rd., Xiangshan Dist., Hsinchu City'
-  },
+	eAddr: 'No.17, Ln. 500, Sec. 3, Xibin Rd., Xiangshan Dist., Hsinchu City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15274,8 +15884,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新竹縣新豐鄉新豐段00369-000建號(外湖守望哨樓頂)',
-	eAddr: 'Xinfeng Township, Hsinchu County'
-  },
+	eAddr: 'Xinfeng Township, Hsinchu County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -15299,8 +15910,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮濱海路5段492號(大溪安檢所樓頂)',
-	eAddr: 'No.376, Waidaxi Rd., Toucheng Township, Yilan County'
-  },
+	eAddr: 'No.376, Waidaxi Rd., Toucheng Township, Yilan County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -15324,8 +15936,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '宜蘭縣頭城鎮石城路85號(石城執檢站樓頂)',
-	eAddr: 'No. 39-1, Shicheng Rd., Toucheng Township, Yilan County'
-  },
+	eAddr: 'No. 39-1, Shicheng Rd., Toucheng Township, Yilan County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15349,8 +15962,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣後龍鎮海埔里8鄰125之15號',
-	eAddr: 'No. 125-15, Haipu, Houlong Township, Miaoli County'
-  },
+	eAddr: 'No. 125-15, Haipu, Houlong Township, Miaoli County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15374,8 +15988,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣通霄鎮漁港路69號(通霄安檢所樓頂)',
-	eAddr: 'No.69, Yugang Rd., Tongxiao Township, Miaoli County'
-  },
+	eAddr: 'No.69, Yugang Rd., Tongxiao Township, Miaoli County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15399,8 +16014,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣竹南鎮龍江街359巷5號(龍鳳安檢所樓頂)',
-	eAddr: 'No.5, Ln. 359, Longjiang St., Zhunan Township, Miaoli County'
-  },
+	eAddr: 'No.5, Ln. 359, Longjiang St., Zhunan Township, Miaoli County',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15424,8 +16040,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市大甲區順帆路233號(松柏安檢所樓頂)',
-	eAddr: 'No.233, Shunfan Rd., Dajia Dist., Taichung City'
-  },
+	eAddr: 'No.233, Shunfan Rd., Dajia Dist., Taichung City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15449,8 +16066,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市大安區中山北路1巷67號(臺中大安區里民活動中心樓頂)',
-	eAddr: 'No.67, Ln. 1, Zhongshan N. Rd., Da’an Dist., Taichung City'
-  },
+	eAddr: 'No.67, Ln. 1, Zhongshan N. Rd., Da’an Dist., Taichung City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15474,8 +16092,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市旗津區旗下巷34號',
-	eAddr: 'No. 34, Qixia Ln., Qijin Dist., Kaohsiung City 805001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 34, Qixia Ln., Qijin Dist., Kaohsiung City 805001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15499,8 +16118,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24hr',
 	Addr: '屏東縣萬丹鄉和平西路149號(萬丹鄉萬丹消防分隊頂樓)',
-	eAddr: 'No. 149, Heping W. Rd., Wandan Township, Pingtung County 913009 , Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 149, Heping W. Rd., Wandan Township, Pingtung County 913009 , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15524,8 +16144,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣林邊鄉竹林村中興路122號',
-	eAddr: 'No. 122, Zhongxing Rd., Guanglin Vil., Linbian Township, Pingtung County 92744, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 122, Zhongxing Rd., Guanglin Vil., Linbian Township, Pingtung County 92744, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15549,8 +16170,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '新北市三芝區古庄里83之1號',
-	eAddr: 'No.83-1, Guzhuang, Sanzhi Dist., New Taipei City 252004, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.83-1, Guzhuang, Sanzhi Dist., New Taipei City 252004, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15574,8 +16196,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市板橋區僑中一街1號',
-	eAddr: 'No.1, Ciaojhong 1st St., Banciao Dist., New Taipei City 220091, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Ciaojhong 1st St., Banciao Dist., New Taipei City 220091, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15599,8 +16222,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '桃園市觀音區文化路石橋段453號',
-	eAddr: 'No.453, Sec. Shiqiao, Wenhua Rd., Guanyin Dist., Taoyuan City 328016, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.453, Sec. Shiqiao, Wenhua Rd., Guanyin Dist., Taoyuan City 328016, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -15624,8 +16248,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24hr',
 	Addr: '基隆市暖暖區東碇路15號(暖暖運動公園)',
-	eAddr: 'No. 15, Dongding Rd., Nuannuan Dist., Keelung City 205007 , Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 15, Dongding Rd., Nuannuan Dist., Keelung City 205007 , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15649,8 +16274,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺中市龍井區龍昌路1號',
-	eAddr: 'No.1, Longchang Rd., Longjing Dist., Taichung City 434204, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.1, Longchang Rd., Longjing Dist., Taichung City 434204, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15674,8 +16300,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '彰化縣伸港鄉全興村西全路167巷111之1號',
-	eAddr: 'No.111-1, Ln. 167, Xiquan Rd., Shengang Township, Changhua County 509001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.111-1, Ln. 167, Xiquan Rd., Shengang Township, Changhua County 509001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15699,8 +16326,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '彰化縣福興鄉',
-	eAddr: 'Fuxing Township, Changhua County 506, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fuxing Township, Changhua County 506, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15724,8 +16352,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '彰化縣大城鄉三豐村和平路30之1號',
-	eAddr: 'No.30-1, Heping Rd., Dacheng Township, Changhua County 527001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.30-1, Heping Rd., Dacheng Township, Changhua County 527001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15749,8 +16378,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '雲林縣口湖鄉漁港路370號',
-	eAddr: 'No.370, Yugang Rd., Kouhu Township, Yunlin County 653005, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.370, Yugang Rd., Kouhu Township, Yunlin County 653005, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -15774,8 +16404,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '嘉義縣布袋鎮好美里106號',
-	eAddr: 'No.106, Haomei village., Budai Township, Chiayi County 625004, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.106, Haomei village., Budai Township, Chiayi County 625004, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15799,8 +16430,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺南市將軍區6號',
-	eAddr: 'No.6, Jiangjun Dist., Tainan City 725, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.6, Jiangjun Dist., Tainan City 725, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15824,8 +16456,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺南市安南區城西街三段431號',
-	eAddr: 'No. 431, Sec. 3, Chengxi St., Annan Dist., Tainan City 709016, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 431, Sec. 3, Chengxi St., Annan Dist., Tainan City 709016, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15849,8 +16482,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺南市安南區',
-	eAddr: 'Annan Dist., Tainan City 709, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Annan Dist., Tainan City 709, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15874,8 +16508,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺南市北門區蘆竹溝333之11號',
-	eAddr: 'No. 333-11, Luzhugou, Beimen Dist., Tainan City 727009, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 333-11, Luzhugou, Beimen Dist., Tainan City 727009, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15899,8 +16534,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺南市北門區保吉里雙春里8鄰73-20號',
-	eAddr: 'No. 73-20, Shuangchun, Beimen Dist., Tainan City 727010, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 73-20, Shuangchun, Beimen Dist., Tainan City 727010, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15924,8 +16560,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣滿州鄉九棚村',
-	eAddr: 'Jiupeng village., Manzhou Township, Pingtung County 947, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Jiupeng village., Manzhou Township, Pingtung County 947, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15949,8 +16586,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣滿州鄉港口村13鄰興海路106號',
-	eAddr: 'No.106, 13th Neighborhood, Gangkou village., Xinghai Rd., Manzhou Township, Pingtung County 947015, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.106, 13th Neighborhood, Gangkou village., Xinghai Rd., Manzhou Township, Pingtung County 947015, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15974,8 +16612,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣恆春鎮大光里9鄰大光路79之40號',
-	eAddr: 'No.79-40, Daguang Rd., Hengchun Township, Pingtung County 946005, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.79-40, Daguang Rd., Hengchun Township, Pingtung County 946005, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -15999,8 +16638,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣恆春鎮山海里山海路2之1號',
-	eAddr: 'No.2-1, Shanhai Rd., Hengchun Township, Pingtung County 946006, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.2-1, Shanhai Rd., Hengchun Township, Pingtung County 946006, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16024,8 +16664,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣車城鄉海口村尖山46號',
-	eAddr: 'No.46, Jianshan, Checheng Township, Pingtung County 944011, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.46, Jianshan, Checheng Township, Pingtung County 944011, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16049,8 +16690,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣枋寮鄉德聖路47號',
-	eAddr: 'No.47, Desheng Rd., Fangliao Township, Pingtung County 940002, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.47, Desheng Rd., Fangliao Township, Pingtung County 940002, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16074,8 +16716,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣佳冬鄉焰溫村炯興路51號',
-	eAddr: 'No.51, Jiongxing Rd., Jiadong Township, Pingtung County 931008, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.51, Jiongxing Rd., Jiadong Township, Pingtung County 931008, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -16099,8 +16742,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '宜蘭縣頭城鎮濱海路三段(北關梗枋漁港北側路邊)',
-	eAddr: 'Sec. 3, Binhai Rd., Toucheng Township, Yilan County  261004, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Sec. 3, Binhai Rd., Toucheng Township, Yilan County  261004, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -16124,8 +16768,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '宜蘭縣蘇澳鎮港區路1號6樓(蘇澳港行政大樓)',
-	eAddr: '6F., No.1, Gangqu Rd, Suao Township, Yilan County 270011, Taiwan (R.O.C.)'
-  },
+	eAddr: '6F., No.1, Gangqu Rd, Suao Township, Yilan County 270011, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -16149,8 +16794,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '宜蘭縣壯圍鄉紅葉路69號',
-	eAddr: '6F., No.69, Hongye Rd., Zhuangwei Township, Yilan County 263032, Taiwan (R.O.C.)'
-  },
+	eAddr: '6F., No.69, Hongye Rd., Zhuangwei Township, Yilan County 263032, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16174,8 +16820,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市小港區南星路107號',
-	eAddr: 'No. 107, Nanxing Rd., Xiaogang Dist., Kaohsiung City 812038, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 107, Nanxing Rd., Xiaogang Dist., Kaohsiung City 812038, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16199,8 +16846,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市梓官區信蚵里廣澤路100號',
-	eAddr: 'No. 100, Guangze Rd., Ziguan Dist., Kaohsiung City 826006, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 100, Guangze Rd., Ziguan Dist., Kaohsiung City 826006, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16224,8 +16872,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市彌陀區南寮里漁港1街62號',
-	eAddr: 'No. 62, Yugang 1st St., Mituo Dist., Kaohsiung City 827012, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 62, Yugang 1st St., Mituo Dist., Kaohsiung City 827012, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16249,8 +16898,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市彌陀區舊港橫路87號',
-	eAddr: 'No. 87, Jiugangheng Rd., Mituo Dist., Kaohsiung City 827011, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 87, Jiugangheng Rd., Mituo Dist., Kaohsiung City 827011, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16274,8 +16924,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市茄萣區順漁路100號',
-	eAddr: 'No. 100, Shunyu Rd., Qieding Dist., Kaohsiung City 852005, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 100, Shunyu Rd., Qieding Dist., Kaohsiung City 852005, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16299,8 +16950,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市前鎮區漁港北二路5號',
-	eAddr: 'No. 5, Yugang N. 2nd Rd., Qianzhen Dist., Kaohsiung City 806043, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 5, Yugang N. 2nd Rd., Qianzhen Dist., Kaohsiung City 806043, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16324,8 +16976,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市林園區',
-	eAddr: 'Linyuan Dist., Kaohsiung City 832, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Linyuan Dist., Kaohsiung City 832, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16349,8 +17002,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '屏東縣枋山鄉加祿村190之300號',
-	eAddr: 'No.190-300, Jialu village, Fangshan Township, Pingtung County 941005, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.190-300, Jialu village, Fangshan Township, Pingtung County 941005, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16374,8 +17028,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市和平區平等村武陵路3之16號(富野度假村樓頂平台)',
-	eAddr: 'No.3-16, Wuling Rd., Heping Dist., Taichung City 424, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.3-16, Wuling Rd., Heping Dist., Taichung City 424, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16399,8 +17054,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '臺中市霧峰區新生路192號(921教育園區內)',
-	eAddr: 'No.192, Xinsheng Rd., Wufeng Dist., Taichung City 413004, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.192, Xinsheng Rd., Wufeng Dist., Taichung City 413004, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -16424,8 +17080,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣關西鎮北斗里北門口41號(關西國中思源樓樓頂)',
-	eAddr: 'No. 41, Beimenkou, Beidou Vil., Guanxi Township, Hsinchu County 30642, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 41, Beimenkou, Beidou Vil., Guanxi Township, Hsinchu County 30642, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -16449,8 +17106,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '新北市貢寮區真理里延平街10號(澳底國小)',
-	eAddr: 'No.10, Yanping St., Gongliao Dist., New Taipei City'
-  },
+	eAddr: 'No.10, Yanping St., Gongliao Dist., New Taipei City',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -16474,8 +17132,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '連江縣北竿鄉北竿鄉?里村1-1號',
-	eAddr: 'No. 1-1, Banli Vil., Beigan Township, Lienchiang County 211, Taiwan(R.O.C.)'
-  },
+	eAddr: 'No. 1-1, Banli Vil., Beigan Township, Lienchiang County 211, Taiwan(R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -16499,8 +17158,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '澎湖縣七美鄉雙心石滬風景區',
-	eAddr: 'Twin-Hearts Scenic Area, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Twin-Hearts Scenic Area, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -16524,8 +17184,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '澎湖縣望安鄉天台山風景區',
-	eAddr: 'Tiantai Mountain Scenic Area, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Tiantai Mountain Scenic Area, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -16549,8 +17210,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '澎湖縣湖西鄉摩西分海風景區',
-	eAddr: 'Kueibisan Geopark, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Kueibisan Geopark, Wang\'an Township, Penghu County 882, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -16574,8 +17236,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣大湖鄉大寮村5鄰竹高屋34-1號附近',
-	eAddr: 'Near No. 34-1, Zhugaowu, 5th Neighborhood, Daliao Vil., Dahu Township, Miaoli County 36444, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near No. 34-1, Zhugaowu, 5th Neighborhood, Daliao Vil., Dahu Township, Miaoli County 36444, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -16599,8 +17262,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣後龍鎮後龍溪橋旁高地',
-	eAddr: 'Near Houlongxi Bridge, Houlong Township, Miaoli County 356, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Houlongxi Bridge, Houlong Township, Miaoli County 356, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -16624,8 +17288,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣三義鄉130縣道13.5K附近(慈濟山茶園內)',
-	eAddr: 'County Highway No. 130, Sanyi Township, Miaoli County 367, Taiwan (R.O.C.)'
-  },
+	eAddr: 'County Highway No. 130, Sanyi Township, Miaoli County 367, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16649,8 +17314,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市大肚區瑞井里遊園路一段2號(臺中區監理所內)',
-	eAddr: 'No. 2, Sec. 1, Youyuan Rd., Ruijing Vil., Dadu Dist., Taichung City 43214, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Sec. 1, Youyuan Rd., Ruijing Vil., Dadu Dist., Taichung City 43214, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16674,8 +17340,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市和平區臺中市和平區梨山里福壽山農場',
-	eAddr: 'Fushoushan Farm, Lishan Vil., Heping Dist., Taichung City 424, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Fushoushan Farm, Lishan Vil., Heping Dist., Taichung City 424, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16699,8 +17366,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市大甲區開元路71號(大甲高級工業職業學校內)',
-	eAddr: 'No. 71, Kaiyuan Rd., Dajia Dist., Taichung City 43765, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 71, Kaiyuan Rd., Dajia Dist., Taichung City 43765, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16724,8 +17392,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市太平區長龍路中埔二號橋至站址直線距離約1.7km',
-	eAddr: 'Near Jhongpu No. 2 Bridge, Changlong Rd., Taiping Dist., Taichung City 411, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Jhongpu No. 2 Bridge, Changlong Rd., Taiping Dist., Taichung City 411, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16749,8 +17418,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市和平區東崎路2段烏石巷109號',
-	eAddr: 'No. 109, Wushi Ln., Sec. 2, Dongqi Rd., Heping Dist., Taichung City 424, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 109, Wushi Ln., Sec. 2, Dongqi Rd., Heping Dist., Taichung City 424, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16774,8 +17444,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣鹿港鎮海埔里顏厝巷67號',
-	eAddr: 'No. 67, Yancuo Ln., Haipu Vil., Lukang Township, Changhua County 50562, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 67, Yancuo Ln., Haipu Vil., Lukang Township, Changhua County 50562, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16799,8 +17470,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣北斗鎮斗苑路二段150號(螺陽國小)',
-	eAddr: 'No. 150, Sec. 2, Douyuan Rd., Beidou Township, Changhua County 52148, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 150, Sec. 2, Douyuan Rd., Beidou Township, Changhua County 52148, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16824,8 +17496,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣芳苑鄉仁愛村斗苑路芳苑段211號(芳苑國中)',
-	eAddr: 'No. 211, Sec. Fangyuan, Douyuan Rd., Ren’ai Vil., Fangyuan Township, Changhua County 52864, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 211, Sec. Fangyuan, Douyuan Rd., Ren’ai Vil., Fangyuan Township, Changhua County 52864, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16849,8 +17522,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣中寮鄉復興村初中巷50號(中寮國中校園內)',
-	eAddr: 'No. 50, Chuzhong Ln., Fuxing Vil., Zhongliao Township, Nantou County 54154, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 50, Chuzhong Ln., Fuxing Vil., Zhongliao Township, Nantou County 54154, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16874,8 +17548,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣鹿谷鄉鳳凰鳥園旁',
-	eAddr: 'Near Fonghuanggu Bird and Ecology Park, Lugu Township, Nantou County 558, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Fonghuanggu Bird and Ecology Park, Lugu Township, Nantou County 558, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16899,8 +17574,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣古坑鄉草嶺村龍頭',
-	eAddr: 'Caoling Vil., Gukeng Township, Yunlin County 646, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Caoling Vil., Gukeng Township, Yunlin County 646, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -16924,8 +17600,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣大埔鄉永樂村一鄰內灣仔2號',
-	eAddr: 'No. 2, Neiwanzai, 1st Neighborhood, Yongle Vil., Dapu Township, Chiayi County 60792, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2, Neiwanzai, 1st Neighborhood, Yongle Vil., Dapu Township, Chiayi County 60792, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16949,8 +17626,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市楠西區曾文新村(曾文水庫管理局內)',
-	eAddr: 'Zengwenxincun, Nanxi Dist., Tainan City 715, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Zengwenxincun, Nanxi Dist., Tainan City 715, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16974,8 +17652,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市安南區公學路6段589號(學東國民小學內)',
-	eAddr: 'No. 589, Sec. 6, Gongxue Rd., Annan Dist., Tainan City 70963, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 589, Sec. 6, Gongxue Rd., Annan Dist., Tainan City 70963, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -16999,8 +17678,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市甲仙區(甲仙國民中學操場後方小山丘上)',
-	eAddr: 'Behind Jiaxian Junior High School, Jiaxian Dist., Kaohsiung City 847, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Behind Jiaxian Junior High School, Jiaxian Dist., Kaohsiung City 847, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -17024,8 +17704,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市杉林區月眉里山仙路1號月眉農場(杉林區月眉段2181號)',
-	eAddr: 'No. 1, Shanxian Rd., Yuemei Vil., Shanlin Dist., Kaohsiung City 846, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Shanxian Rd., Yuemei Vil., Shanlin Dist., Kaohsiung City 846, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -17049,8 +17730,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市玉井區台灣糖業公司玉井糖廠',
-	eAddr: 'Yujing Sugar Refinery, Yujing Dist., Tainan City 714, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Yujing Sugar Refinery, Yujing Dist., Tainan City 714, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -17074,8 +17756,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '澎湖縣西嶼鄉竹灣村235號',
-	eAddr: 'No.235, Jhuwan Vil., Xiyu, Penghu County 880, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.235, Jhuwan Vil., Xiyu, Penghu County 880, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17099,8 +17782,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市泰山區國道1號北向39.5k',
-	eAddr: 'Freeway No. 1 – N039.5K'
-  },
+	eAddr: 'Freeway No. 1 – N039.5K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -17124,8 +17808,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市官田區福田路99號',
-	eAddr: 'No. 99, Futian Rd., Guantian Dist., Tainan City 720007, Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 99, Futian Rd., Guantian Dist., Tainan City 720007, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17149,8 +17834,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市平鎮區國道1號高架北向63.26K',
-	eAddr: 'Freeway No. 1 – Viaduct  N63.26K'
-  },
+	eAddr: 'Freeway No. 1 – Viaduct  N63.26K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17174,8 +17860,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣關西鎮國道3號北向77.17K',
-	eAddr: 'Freeway No. 3 – N77.17K'
-  },
+	eAddr: 'Freeway No. 3 – N77.17K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17199,8 +17886,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣銅鑼鄉國道1號南向144.68K',
-	eAddr: 'Freeway No. 1 - S144.68K'
-  },
+	eAddr: 'Freeway No. 1 - S144.68K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17224,8 +17912,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市后里區國道1號北向158.055K',
-	eAddr: 'Freeway No. 1 - N158.055K'
-  },
+	eAddr: 'Freeway No. 1 - N158.055K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17249,8 +17938,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市沙鹿區國道3號南向175.942K',
-	eAddr: 'Freeway No. 3 - S175.942K'
-  },
+	eAddr: 'Freeway No. 3 - S175.942K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17274,8 +17964,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市龍井區國道3號北向183.072K',
-	eAddr: 'Freeway No. 3 - N183.072K'
-  },
+	eAddr: 'Freeway No. 3 - N183.072K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17299,8 +17990,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣竹崎鄉國道3號南向290.915K',
-	eAddr: 'Freeway No. 3 – S290.915K'
-  },
+	eAddr: 'Freeway No. 3 – S290.915K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -17324,8 +18016,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺南市新市區國道1號北向315K',
-	eAddr: 'Freeway No. 1 – N315K'
-  },
+	eAddr: 'Freeway No. 1 – N315K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -17349,8 +18042,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市路竹區國道1號南向336.53K',
-	eAddr: 'Freeway No. 1 – S336.53K'
-  },
+	eAddr: 'Freeway No. 1 – S336.53K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -17374,8 +18068,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市田寮區國道3號南向378.2K',
-	eAddr: 'Freeway No. 3 – S378.2K'
-  },
+	eAddr: 'Freeway No. 3 – S378.2K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17399,8 +18094,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣造橋鄉龍昇村九車籠42-16號',
-	eAddr: 'No. 42-16, Jiuchelong, Zaoqiao Township, Miaoli County 361027, Taiwan, ROC'
-  },
+	eAddr: 'No. 42-16, Jiuchelong, Zaoqiao Township, Miaoli County 361027, Taiwan, ROC',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17424,8 +18120,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市坪林區碧湖(北宜路旁之碧湖橋道路上行約10分鐘)',
-	eAddr: 'Bihu, Pinglin Dist., New Taipei City 232, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Bihu, Pinglin Dist., New Taipei City 232, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17449,8 +18146,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市烏來區福山里李茂岸八號(福山國小旁)',
-	eAddr: 'No. 8, Limao’an, Fushan Vil., Wulai Dist., New Taipei City 23342, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 8, Limao’an, Fushan Vil., Wulai Dist., New Taipei City 23342, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17474,8 +18172,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市平溪區東勢里',
-	eAddr: 'Dongshi Vil., Pingxi Dist., New Taipei City 226, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dongshi Vil., Pingxi Dist., New Taipei City 226, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17499,8 +18198,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市瑞芳區龍山里逢甲路360號(義方國民小學校園內)',
-	eAddr: 'No. 360, Fengjia Rd., Ruifang Dist., New Taipei City 22443, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 360, Fengjia Rd., Ruifang Dist., New Taipei City 22443, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17524,8 +18224,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市貢寮區東北角海岸國家風景管理處之福隆遊客中心後方',
-	eAddr: 'Near Northeast Coast National Scenic Area Administration, Fulong Visitor Center, Gongliao Dist., New Taipei City 228, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Northeast Coast National Scenic Area Administration, Fulong Visitor Center, Gongliao Dist., New Taipei City 228, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17549,8 +18250,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市石門區石門區山溪里10鄰九芎林13號旁(石門國小山溪分班附近)',
-	eAddr: 'No. 13, Jiuqionglin, 10th Neighborhood, Shanxi Vil., Shimen Dist., New Taipei City 25342, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 13, Jiuqionglin, 10th Neighborhood, Shanxi Vil., Shimen Dist., New Taipei City 25342, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17574,8 +18276,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣梅山鄉瑞里派出所旁小路至站址(公墓旁)車程約10分鐘',
-	eAddr: 'Near Ruili Police Station, Meishan Township, Chiayi County 603, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Near Ruili Police Station, Meishan Township, Chiayi County 603, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17599,8 +18302,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市石碇區國道5號南向5.22K',
-	eAddr: 'Freeway No. 5 – S5.22K'
-  },
+	eAddr: 'Freeway No. 5 – S5.22K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17624,8 +18328,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市石碇區國道5號南向6.4K',
-	eAddr: 'Freeway No. 5 – S6.4K'
-  },
+	eAddr: 'Freeway No. 5 – S6.4K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17649,8 +18354,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市石碇區國道5號北向8.01K',
-	eAddr: 'Freeway No. 5 – N8.01K'
-  },
+	eAddr: 'Freeway No. 5 – N8.01K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17674,8 +18380,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新北市坪林區國道5號南向13.8K',
-	eAddr: 'Freeway No. 5 – N13.8K'
-  },
+	eAddr: 'Freeway No. 5 – N13.8K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17699,8 +18406,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '桃園市龍潭區國道3號北向72.5K',
-	eAddr: 'Freeway No. 3 – N72.5K'
-  },
+	eAddr: 'Freeway No. 3 – N72.5K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -17724,8 +18432,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '宜蘭縣礁溪鄉國道5號南向31.6K',
-	eAddr: 'Freeway No. 5 – S031.6K'
-  },
+	eAddr: 'Freeway No. 5 – S031.6K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -17749,8 +18458,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '宜蘭縣壯圍鄉國道5號南向41.1K',
-	eAddr: 'Freeway No. 5 – S41.1K'
-  },
+	eAddr: 'Freeway No. 5 – S41.1K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -17774,8 +18484,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '宜蘭縣羅東鎮國道5號南向47.8K',
-	eAddr: 'Freeway No. 5 – S47.8K'
-  },
+	eAddr: 'Freeway No. 5 – S47.8K',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17799,8 +18510,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣古坑鄉永昌村文昌路270號',
-	eAddr: 'No.270, Wenchang Rd., Gukeng Township, Yunlin County 646008, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.270, Wenchang Rd., Gukeng Township, Yunlin County 646008, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -17824,8 +18536,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '苗栗縣苗栗市苗栗縣苗栗市南勢里23鄰八甲231號',
-	eAddr: 'No. 231, Bajia, Miaoli City, Miaoli County 360023, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 231, Bajia, Miaoli City, Miaoli County 360023, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17849,8 +18562,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市和平區台中市和平區雪山路出雲巷5號',
-	eAddr: 'No. 5, Chuyun Ln., Xueshan Rd., Heping Dist., Taichung City 424005, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 5, Chuyun Ln., Xueshan Rd., Heping Dist., Taichung City 424005, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17874,8 +18588,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市新社區台中市新社區福興里永櫃22之1號',
-	eAddr: 'No. 22-1, Yonggui, Xinshe Dist., Taichung City 426132, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 22-1, Yonggui, Xinshe Dist., Taichung City 426132, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17899,8 +18614,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣北斗鎮彰化縣北斗鎮拓農路80號',
-	eAddr: 'No. 80, Tuonong Rd., Beidou Township, Changhua County 521051, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 80, Tuonong Rd., Beidou Township, Changhua County 521051, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17924,8 +18640,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣國姓鄉南投縣國姓鄉長豐村',
-	eAddr: 'Changshou Village, Guoxing Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Changshou Village, Guoxing Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17949,8 +18666,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣國姓鄉南投縣國姓鄉南港村',
-	eAddr: 'Nangang Village, Guoxing Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nangang Village, Guoxing Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17974,8 +18692,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣國姓鄉南投縣國姓鄉中正路二段245-2號',
-	eAddr: 'No. 245-2, Sec. 2, Zhongzheng Rd., Guoxing Township, Nantou County 544001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 245-2, Sec. 2, Zhongzheng Rd., Guoxing Township, Nantou County 544001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -17999,8 +18718,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣國姓鄉南投縣國姓鄉北港村國姓路87-9號',
-	eAddr: 'No. 87-9, Guoxing Rd., Guoxing Township, Nantou County 544003, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 87-9, Guoxing Rd., Guoxing Township, Nantou County 544003, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18024,8 +18744,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣名間鄉南投縣名間鄉中山村水尾巷2之1號',
-	eAddr: 'No. 2-1, Shuiwei Ln., Mingjian Township, Nantou County 551008, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 2-1, Shuiwei Ln., Mingjian Township, Nantou County 551008, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18049,8 +18770,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣埔里鎮南投縣埔里鎮中台路5號',
-	eAddr: 'No. 5, Zhongtai Rd., Puli Township, Nantou County 545004, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 5, Zhongtai Rd., Puli Township, Nantou County 545004, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18074,8 +18796,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉力行村',
-	eAddr: 'Lixing Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Lixing Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18099,8 +18822,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉發祥村',
-	eAddr: 'Faxiang Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Faxiang Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18124,8 +18848,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉南豐村',
-	eAddr: 'Nanfeng Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nanfeng Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18149,8 +18874,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉萬豐村',
-	eAddr: 'Wanfeng Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Wanfeng Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18174,8 +18900,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉發祥村',
-	eAddr: 'Faxiang Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'Faxiang Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18199,8 +18926,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉中正村',
-	eAddr: 'Zhongzheng Jiaxian Junior High School， Jiaxian Dist.， Kaohsiung City 847， Taiwan (R.O.C.)'
-  },
+	eAddr: 'Zhongzheng Jiaxian Junior High School， Jiaxian Dist.， Kaohsiung City 847， Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18224,8 +18952,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉南港村',
-	eAddr: 'Nangang Jiaxian Junior High School， Jiaxian Dist.， Kaohsiung City 847， Taiwan (R.O.C.)'
-  },
+	eAddr: 'Nangang Jiaxian Junior High School， Jiaxian Dist.， Kaohsiung City 847， Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18249,8 +18978,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣名間鄉南投縣名間鄉竹圍巷46-6號',
-	eAddr: 'No. 46-6, Zhuwei Ln., Mingjian Township, Nantou County 551005, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 46-6, Zhuwei Ln., Mingjian Township, Nantou County 551005, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18274,8 +19004,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣鹿谷鄉南投縣鹿谷鄉永隆村',
-	eAddr: 'Yonglong Vil., Lugu Township, Nantou County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Yonglong Vil., Lugu Township, Nantou County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18299,8 +19030,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣埔里鎮南投縣埔里鎮合成里西安路3段204巷168號',
-	eAddr: 'No. 168, Ln. 204, Sec. 3, Xian Rd., Puli Township, Nantou County,Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 168, Ln. 204, Sec. 3, Xian Rd., Puli Township, Nantou County,Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18324,8 +19056,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣虎尾鎮雲林縣虎尾鎮海墘厝189號',
-	eAddr: 'No. 189, Haiqian, Huwei Township, Yunlin County 632101, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 189, Haiqian, Huwei Township, Yunlin County 632101, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18349,8 +19082,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣古坑鄉雲林縣古坑鄉荷苞村',
-	eAddr: 'Hebao Vil., Gukeng Township, Yunlin County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Hebao Vil., Gukeng Township, Yunlin County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18374,8 +19108,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義市東區學府路300號',
-	eAddr: 'No. 300, Xuefu Rd., East Dist., Chiayi City, Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 300, Xuefu Rd., East Dist., Chiayi City, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18399,8 +19134,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣竹崎鄉嘉義縣竹崎鄉中和村',
-	eAddr: 'Zhonghe Vil., Zhuqi Township, Chiayi County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Zhonghe Vil., Zhuqi Township, Chiayi County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18424,8 +19160,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣阿里山鄉嘉義縣阿里山鄉達邦村',
-	eAddr: 'Dabang Vil., Alishan Township, Chiayi County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Dabang Vil., Alishan Township, Chiayi County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18449,8 +19186,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣梅山鄉嘉義縣梅山鄉油車寮6號',
-	eAddr: 'No. 6, Youcheliao, Meishan Township, Chiayi County 603010, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 6, Youcheliao, Meishan Township, Chiayi County 603010, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18474,8 +19212,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣梅山鄉嘉義縣梅山鄉瑞峰村',
-	eAddr: 'Ruifeng Village, Meishan Township, Chiayi County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Ruifeng Village, Meishan Township, Chiayi County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18499,8 +19238,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣梅山鄉嘉義縣梅山鄉碧湖村',
-	eAddr: 'Bihu Village, Meishan Township, Chiayi County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Bihu Village, Meishan Township, Chiayi County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -18524,8 +19264,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣屏東市屏東縣屏東市復興路245號(台灣糖業公司屏東區處場區內)',
-	eAddr: 'No. 245, Fuxing Rd., Pingtung City, Pingtung County 90083, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 245, Fuxing Rd., Pingtung City, Pingtung County 90083, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -18549,8 +19290,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '屏東縣內埔鄉屏東縣內埔鄉學府路1號',
-	eAddr: 'No. 1, Xuefu Rd., Neipu Township, Pingtung County 912301, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Xuefu Rd., Neipu Township, Pingtung County 912301, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -18574,8 +19316,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '高雄市美濃區高雄市美濃區福安里中山路二段204巷65號(美濃區福安國小後方)',
-	eAddr: 'No. 65, Ln. 204, Sec. 2, Zhongshan Rd., Fu’an Vil., Meinong Dist., Kaohsiung City 84342, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 65, Ln. 204, Sec. 2, Zhongshan Rd., Fu’an Vil., Meinong Dist., Kaohsiung City 84342, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -18599,8 +19342,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣寶山鄉三峰村',
-	eAddr: 'Sanfeng 1st Rd., Baoshan Township, Hsinchu County, Taiwan (R.O.C)'
-  },
+	eAddr: 'Sanfeng 1st Rd., Baoshan Township, Hsinchu County, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18624,8 +19368,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '南投縣仁愛鄉南投縣仁愛鄉精英村',
-	eAddr: 'JingYing Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)'
-  },
+	eAddr: 'JingYing Vil., Ren-ai Township, Nantou County , Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18649,8 +19394,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '臺中市和平區東崎路1段天嶺巷22號',
-	eAddr: 'No.22, Tianling Ln., Sec. 1, Dongqi Rd., Heping Dist., Taichung City, Taiwan (R.O.C)'
-  },
+	eAddr: 'No.22, Tianling Ln., Sec. 1, Dongqi Rd., Heping Dist., Taichung City, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18674,8 +19420,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '彰化縣埤頭鄉彰水路1段2號',
-	eAddr: 'No. 2, Sec. 1, Zhangshui Rd., Pitou Township, Changhua County, Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 2, Sec. 1, Zhangshui Rd., Pitou Township, Changhua County, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18699,8 +19446,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '雲林縣古坑鄉草嶺村石壁70號',
-	eAddr: 'No. 70, Shibi, Gukeng Township, Yunlin County, Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 70, Shibi, Gukeng Township, Yunlin County, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18724,8 +19472,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '嘉義縣朴子市新吉庄120號',
-	eAddr: 'No. 120, Xinjizhuang, Puzi City, Chiayi County,  Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 120, Xinjizhuang, Puzi City, Chiayi County,  Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -18749,8 +19498,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '新北市林口區',
-	eAddr: 'No. 32, Shantou, Linkou Dist., New Taipei City 244011, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 32, Shantou, Linkou Dist., New Taipei City 244011, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -18774,8 +19524,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '苗栗縣通霄鎮新埔里19鄰新埔151-2號',
-	eAddr: 'No. 151-2, Xinpu, Tongxiao Township, Miaoli County 357001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 151-2, Xinpu, Tongxiao Township, Miaoli County 357001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 1,
@@ -18799,8 +19550,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '',
 	eD_Hour: '',
 	Addr: '新竹縣關西鎮竹30鄉道12號',
-	eAddr: 'No. 12, Shimen, Guanxi Township, Hsinchu County, Taiwan (R.O.C)'
-  },
+	eAddr: 'No. 12, Shimen, Guanxi Township, Hsinchu County, Taiwan (R.O.C)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18824,8 +19576,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺中市大甲區',
-	eAddr: 'Sec. 1, Dongsi 7th Rd., Dajia Dist., Taichung City, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Sec. 1, Dongsi 7th Rd., Dajia Dist., Taichung City, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 2,
@@ -18849,8 +19602,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '彰化縣和美鎮',
-	eAddr: 'No. 115, Sec. 6, Luhe Rd., Hemei Township, Changhua County 508020, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 115, Sec. 6, Luhe Rd., Hemei Township, Changhua County 508020, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -18874,8 +19628,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣新埤鄉',
-	eAddr: 'No. 126, Zhongshan Rd., Xinpi Township, Pingtung County 925023, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 126, Zhongshan Rd., Xinpi Township, Pingtung County 925023, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -18899,8 +19654,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '屏東縣內埔鄉',
-	eAddr: 'No. 1, Nanhua Rd., Neipu Township, Pingtung County 912007, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 1, Nanhua Rd., Neipu Township, Pingtung County 912007, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -18924,8 +19680,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣太麻里鄉',
-	eAddr: 'No. 28-1, Meihe, Taimali Township, Taitung County 963003, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28-1, Meihe, Taimali Township, Taitung County 963003, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -18949,8 +19706,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣臺東市',
-	eAddr: 'No. 299, Fugang St., Taitung City, Taitung County 950031, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 299, Fugang St., Taitung City, Taitung County 950031, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -18974,8 +19732,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣東河鄉',
-	eAddr: 'No. 24-13, Dulan, Donghe Township, Taitung County 959001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 24-13, Dulan, Donghe Township, Taitung County 959001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -18999,8 +19758,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣東河鄉',
-	eAddr: 'No. 28-1, Xingchang, Donghe Township, Taitung County 959002, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 28-1, Xingchang, Donghe Township, Taitung County 959002, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19024,8 +19784,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣成功鎮',
-	eAddr: 'No. 3, Fengtian Rd., Chenggong Township, Taitung County 961004, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 3, Fengtian Rd., Chenggong Township, Taitung County 961004, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19049,8 +19810,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣成功鎮',
-	eAddr: 'No.43, Bailian Rd., Chenggong Township, Taitung County 961001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.43, Bailian Rd., Chenggong Township, Taitung County 961001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19074,8 +19836,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣成功鎮',
-	eAddr: 'No. 9, Chengguang Rd., Chenggong Township, Taitung County 961001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 9, Chengguang Rd., Chenggong Township, Taitung County 961001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19099,8 +19862,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '臺東縣長濱鄉',
-	eAddr: 'No.181-2, Changbin, Changbin Township, Taitung County 962001, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No.181-2, Changbin, Changbin Township, Taitung County 962001, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19124,8 +19888,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '花蓮縣花蓮市',
-	eAddr: 'No. 41-1, Gangbin, Hualien City, Hualien County 970024, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 41-1, Gangbin, Hualien City, Hualien County 970024, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19149,8 +19914,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '花蓮縣秀林鄉',
-	eAddr: 'No. 128-6, Jiawan, Xiulin Township, Hualien County 972067, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 128-6, Jiawan, Xiulin Township, Hualien County 972067, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 4,
@@ -19174,8 +19940,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '花蓮縣壽豐鄉',
-	eAddr: 'Shoufeng Township, Hualien County, Taiwan (R.O.C.)'
-  },
+	eAddr: 'Shoufeng Township, Hualien County, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 3,
@@ -19199,8 +19966,9 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24 hr',
 	Addr: '高雄市大樹區',
-	eAddr: 'No. 188, Zhongzheng 1st Rd., Dashu Dist., Kaohsiung City 840007, Taiwan (R.O.C.)'
-  },
+	eAddr: 'No. 188, Zhongzheng 1st Rd., Dashu Dist., Kaohsiung City 840007, Taiwan (R.O.C.)',
+    display: false
+    },
   {
 	Icon: 0,
 	Area: 5,
@@ -19224,6 +19992,7 @@ export const STMaps:CWAMAP[] =
 	D_Hour: '00至24小時每1小時',
 	eD_Hour: 'every 1 hour in 00-24h',
 	Addr: '金門縣烈嶼鄉',
-	eAddr: 'No. 1-27, Nantang, Lieyu Township, Kinmen County 894020, Taiwan (R.O.C.)'
-  }
+	eAddr: 'No. 1-27, Nantang, Lieyu Township, Kinmen County 894020, Taiwan (R.O.C.)',
+    display: false
+}
 ]
