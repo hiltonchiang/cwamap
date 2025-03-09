@@ -27,7 +27,8 @@ export const InfoWindowContent = memo(({ features }: InfowindowContentProps) => 
 
       <ul>
         {features.slice(0, 5).map((feature) => {
-          return <li key={feature.id}></li>
+          const props = feature.properties! as CWAFeatureProps
+          return <li key={feature.id}>{props.STname}</li>
         })}
 
         {features.length > 5 && <li>and {numFmt.format(features.length - 5)} more.</li>}
