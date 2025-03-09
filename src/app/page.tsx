@@ -67,7 +67,6 @@ export default function Home() {
             </InfoWindow>
           )}
         </Map>
-        <ControlPanel numClusters={numClusters} numFeatures={geojson?.features.length || 0} />
       </APIProvider>
     </div>
   )

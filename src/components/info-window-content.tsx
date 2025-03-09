@@ -14,7 +14,7 @@ export const InfoWindowContent = memo(({ features }: InfowindowContentProps) => 
     const props = f.properties! as CWAFeatureProps
 
     return (
-      <div>
+      <div className="text-stone-500 dark:text-lime-500">
         <h4>{props.STname}</h4>
         <p>more information</p>
       </div>
@@ -22,7 +22,7 @@ export const InfoWindowContent = memo(({ features }: InfowindowContentProps) => 
   }
 
   return (
-    <div>
+    <div className="text-stone-500 dark:text-lime-500">
       <h4>{numFmt.format(features.length)} stations. Zoom in to explore.</h4>
 
       <ul>
